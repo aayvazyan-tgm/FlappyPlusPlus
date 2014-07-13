@@ -1,20 +1,21 @@
 com.aayvazyan.flappy.MainActivity -> com.aayvazyan.flappy.MainActivity:
     int CAMERA_WIDTH -> a
     int CAMERA_HEIGHT -> b
-    org.andengine.opengl.texture.region.ITextureRegion mParallaxLayerBack -> i
-    org.andengine.opengl.texture.atlas.bitmap.BitmapTextureAtlas mBitmapTextureAtlas -> j
-    org.andengine.opengl.texture.atlas.bitmap.BitmapTextureAtlas m2BitmapTextureAtlas -> k
-    org.andengine.opengl.texture.region.ITextureRegion mParallaxLayerFront -> l
-    org.andengine.opengl.texture.region.TiledTextureRegion mBoxFaceTextureRegion -> m
+    org.andengine.opengl.texture.region.ITextureRegion mParallaxLayerBack -> j
+    org.andengine.opengl.texture.atlas.bitmap.BitmapTextureAtlas mBitmapTextureAtlas -> k
+    org.andengine.opengl.texture.atlas.bitmap.BitmapTextureAtlas m2BitmapTextureAtlas -> l
+    org.andengine.opengl.texture.region.ITextureRegion mParallaxLayerFront -> m
+    org.andengine.opengl.texture.region.TiledTextureRegion mBoxFaceTextureRegion -> n
     org.andengine.opengl.texture.region.TiledTextureRegion mTubeTextureRegion -> c
     org.andengine.opengl.texture.region.TiledTextureRegion mLongTubeTextureRegion -> d
-    org.andengine.extension.physics.box2d.PhysicsWorld mPhysicsWorld -> n
-    org.andengine.opengl.font.Font mFont -> o
+    org.andengine.extension.physics.box2d.PhysicsWorld mPhysicsWorld -> o
+    org.andengine.opengl.font.Font mFont -> p
     org.andengine.entity.scene.Scene mScene -> e
-    org.andengine.entity.sprite.AnimatedSprite mainChar -> p
-    org.andengine.opengl.texture.atlas.bitmap.BitmapTextureAtlas mAutoParallaxBackgroundTexture -> q
-    org.andengine.opengl.texture.region.TextureRegion mParallaxLayerMiddle -> r
-    org.andengine.entity.text.Text elapsedText -> f
+    org.andengine.entity.Entity tubeLevel -> f
+    org.andengine.entity.sprite.AnimatedSprite mainChar -> q
+    org.andengine.opengl.texture.atlas.bitmap.BitmapTextureAtlas mAutoParallaxBackgroundTexture -> r
+    org.andengine.opengl.texture.region.TextureRegion mParallaxLayerMiddle -> s
+    org.andengine.entity.text.Text elapsedText -> g
     org.andengine.engine.options.EngineOptions onCreateEngineOptions() -> a
     void onCreateResources() -> b
     org.andengine.entity.scene.Scene onCreateScene() -> c
@@ -541,9 +542,10 @@ org.andengine.entity.Entity -> org.andengine.c.a:
     int getZIndex() -> e
     float getX() -> f
     float getY() -> g
+    void setX(float) -> b
     void setPosition(float,float) -> a
     float getRotation() -> h
-    void setRotation(float) -> b
+    void setRotation(float) -> c
     org.andengine.util.color.Color getColor() -> i
     void setColor(org.andengine.util.color.Color) -> a
     void attachChild(org.andengine.entity.IEntity) -> b
@@ -589,7 +591,7 @@ org.andengine.entity.IEntity -> org.andengine.c.c:
     float getY() -> g
     void setPosition(float,float) -> a
     float getRotation() -> h
-    void setRotation(float) -> b
+    void setRotation(float) -> c
     float[] getSceneCenterCoordinates() -> j
     org.andengine.util.adt.transformation.Transformation getLocalToSceneTransformation() -> m
     org.andengine.util.adt.transformation.Transformation getSceneToLocalTransformation() -> n
@@ -617,6 +619,7 @@ org.andengine.entity.primitive.Line -> org.andengine.c.b.a:
     float getY1() -> s
     float getX2() -> t
     float getY2() -> u
+    void setX(float) -> b
     void setPosition(float,float) -> a
     org.andengine.entity.primitive.vbo.ILineVertexBufferObject getVertexBufferObject() -> v
     boolean isCulled(org.andengine.engine.camera.Camera) -> a
@@ -1064,10 +1067,7 @@ org.andengine.opengl.font.FontFactory -> org.andengine.opengl.a.b:
     java.lang.String sAssetBasePath -> b
     void setAssetBasePath(java.lang.String) -> a
     void onCreate() -> a
-    org.andengine.opengl.font.Font create(org.andengine.opengl.font.FontManager,org.andengine.opengl.texture.TextureManager,int,int,org.andengine.opengl.texture.TextureOptions,android.graphics.Typeface,float) -> a
-    org.andengine.opengl.font.Font create(org.andengine.opengl.font.FontManager,org.andengine.opengl.texture.TextureManager,int,int,org.andengine.opengl.texture.TextureOptions,android.graphics.Typeface,float,boolean,int) -> a
-    org.andengine.opengl.font.Font create(org.andengine.opengl.font.FontManager,org.andengine.opengl.texture.TextureManager,int,int,org.andengine.opengl.texture.bitmap.BitmapTextureFormat,org.andengine.opengl.texture.TextureOptions,android.graphics.Typeface,float,boolean,int) -> a
-    org.andengine.opengl.font.Font create(org.andengine.opengl.font.FontManager,org.andengine.opengl.texture.ITexture,android.graphics.Typeface,float,boolean,int) -> a
+    org.andengine.opengl.font.Font createFromAsset(org.andengine.opengl.font.FontManager,org.andengine.opengl.texture.ITexture,android.content.res.AssetManager,java.lang.String,float,boolean,int) -> a
 org.andengine.opengl.font.FontManager -> org.andengine.opengl.a.c:
     java.util.ArrayList mFontsManaged -> a
     void onCreate() -> a
@@ -1662,9 +1662,9 @@ org.andengine.ui.IGameInterface$OnPopulateSceneCallback -> org.andengine.e.d:
     void onPopulateSceneFinished() -> a
 org.andengine.ui.activity.BaseActivity -> org.andengine.e.a.a:
 org.andengine.ui.activity.BaseGameActivity -> org.andengine.e.a.b:
-    org.andengine.engine.Engine mEngine -> g
+    org.andengine.engine.Engine mEngine -> h
     android.os.PowerManager$WakeLock mWakeLock -> a
-    org.andengine.opengl.view.RenderSurfaceView mRenderSurfaceView -> h
+    org.andengine.opengl.view.RenderSurfaceView mRenderSurfaceView -> i
     boolean mGamePaused -> b
     boolean mGameCreated -> c
     boolean mCreateGameCalled -> d

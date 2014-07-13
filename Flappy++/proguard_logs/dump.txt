@@ -11,7 +11,7 @@ Interfaces (count = 3):
   + Class [org/andengine/c/c/c]
   + Class [org/andengine/input/sensor/a/g]
 
-Constant Pool (count = 444):
+Constant Pool (count = 461):
   + Integer [123456]
   + Integer [268435456]
   + Float [-10.5]
@@ -20,22 +20,24 @@ Constant Pool (count = 444):
   + Float [-2.0]
   + Float [-1.0]
   + Float [0.5]
+  + Float [1.5]
   + Float [5.0]
-  + Float [12.0]
+  + Float [10.0]
+  + Float [30.0]
   + Float [39.2266]
-  + Float [50.0]
   + Float [100.0]
   + Float [200.0]
-  + String [Debug:]
-  + String [Debug: XXXXXXXXXXXXXXXXXXXXX]
+  + String [0]
   + String [Hintergrund2.png]
   + String [Longtube.png]
+  + String [Score: 1234567890]
   + String [ScrollingBG.png]
   + String [Tube.png]
   + String [alarm]
   + String [birdy.png]
   + String [ch]
   + String [cw:]
+  + String [fnt/SCRIPTIN.ttf]
   + String [gfx/]
   + String [hintergrund.png]
   + String [r]
@@ -43,7 +45,6 @@ Constant Pool (count = 444):
   + Class [android/app/PendingIntent]
   + Class [android/content/Context]
   + Class [android/content/Intent]
-  + Class [android/graphics/Typeface]
   + Class [android/os/Process]
   + Class [android/util/DisplayMetrics]
   + Class [android/view/Display]
@@ -54,13 +55,15 @@ Constant Pool (count = 444):
   + Class [com/badlogic/gdx/physics/box2d/Body]
   + Class [com/badlogic/gdx/physics/box2d/b]
   + Class [java/io/PrintStream]
-  + Class [java/lang/String]
+  + Class [java/lang/InterruptedException]
   + Class [java/lang/StringBuilder]
   + Class [java/lang/System]
+  + Class [java/lang/Thread]
   + Class [org/andengine/b/a/a]
   + Class [org/andengine/b/c/a/c]
   + Class [org/andengine/b/c/b]
   + Class [org/andengine/b/c/e]
+  + Class [org/andengine/c/a]
   + Class [org/andengine/c/b/b]
   + Class [org/andengine/c/c/a/a]
   + Class [org/andengine/c/c/a/e]
@@ -87,7 +90,7 @@ Constant Pool (count = 444):
   + Class [org/andengine/opengl/c/c/f]
   + Class [org/andengine/opengl/c/f]
   + Long [10]
-  + Fieldref [android/graphics/Typeface.DEFAULT Landroid/graphics/Typeface;]
+  + Long [500]
   + Fieldref [android/util/DisplayMetrics.heightPixels I]
   + Fieldref [android/util/DisplayMetrics.widthPixels I]
   + Fieldref [com/aayvazyan/flappy/MainActivity.a I]
@@ -95,28 +98,28 @@ Constant Pool (count = 444):
   + Fieldref [com/aayvazyan/flappy/MainActivity.c Lorg/andengine/opengl/c/c/f;]
   + Fieldref [com/aayvazyan/flappy/MainActivity.d Lorg/andengine/opengl/c/c/f;]
   + Fieldref [com/aayvazyan/flappy/MainActivity.e Lorg/andengine/c/c/e;]
-  + Fieldref [com/aayvazyan/flappy/MainActivity.f Lorg/andengine/c/f/b;]
-  + Fieldref [com/aayvazyan/flappy/MainActivity.i Lorg/andengine/opengl/c/c/b;]
-  + Fieldref [com/aayvazyan/flappy/MainActivity.j Lorg/andengine/opengl/c/a/a/a;]
+  + Fieldref [com/aayvazyan/flappy/MainActivity.f Lorg/andengine/c/a;]
+  + Fieldref [com/aayvazyan/flappy/MainActivity.g Lorg/andengine/c/f/b;]
+  + Fieldref [com/aayvazyan/flappy/MainActivity.j Lorg/andengine/opengl/c/c/b;]
   + Fieldref [com/aayvazyan/flappy/MainActivity.k Lorg/andengine/opengl/c/a/a/a;]
-  + Fieldref [com/aayvazyan/flappy/MainActivity.l Lorg/andengine/opengl/c/c/b;]
-  + Fieldref [com/aayvazyan/flappy/MainActivity.m Lorg/andengine/opengl/c/c/f;]
-  + Fieldref [com/aayvazyan/flappy/MainActivity.n Lorg/andengine/d/a/a/d;]
-  + Fieldref [com/aayvazyan/flappy/MainActivity.o Lorg/andengine/opengl/a/a;]
-  + Fieldref [com/aayvazyan/flappy/MainActivity.p Lorg/andengine/c/e/a;]
-  + Fieldref [com/aayvazyan/flappy/MainActivity.q Lorg/andengine/opengl/c/a/a/a;]
-  + Fieldref [com/aayvazyan/flappy/MainActivity.r Lorg/andengine/opengl/c/c/d;]
+  + Fieldref [com/aayvazyan/flappy/MainActivity.l Lorg/andengine/opengl/c/a/a/a;]
+  + Fieldref [com/aayvazyan/flappy/MainActivity.m Lorg/andengine/opengl/c/c/b;]
+  + Fieldref [com/aayvazyan/flappy/MainActivity.n Lorg/andengine/opengl/c/c/f;]
+  + Fieldref [com/aayvazyan/flappy/MainActivity.o Lorg/andengine/d/a/a/d;]
+  + Fieldref [com/aayvazyan/flappy/MainActivity.p Lorg/andengine/opengl/a/a;]
+  + Fieldref [com/aayvazyan/flappy/MainActivity.q Lorg/andengine/c/e/a;]
+  + Fieldref [com/aayvazyan/flappy/MainActivity.r Lorg/andengine/opengl/c/a/a/a;]
+  + Fieldref [com/aayvazyan/flappy/MainActivity.s Lorg/andengine/opengl/c/c/d;]
   + Fieldref [com/badlogic/gdx/physics/box2d/b.a Lcom/badlogic/gdx/physics/box2d/b;]
   + Fieldref [com/badlogic/gdx/physics/box2d/b.c Lcom/badlogic/gdx/physics/box2d/b;]
   + Fieldref [java/lang/System.out Ljava/io/PrintStream;]
   + Fieldref [org/andengine/b/c/e.a Lorg/andengine/b/c/e;]
-  + Fieldref [org/andengine/f/d/a.c Lorg/andengine/f/d/a;]
+  + Fieldref [org/andengine/f/d/a.a Lorg/andengine/f/d/a;]
   + Fieldref [org/andengine/opengl/c/f.b Lorg/andengine/opengl/c/f;]
   + Methodref [android/app/AlarmManager.set (IJLandroid/app/PendingIntent;)V]
   + Methodref [android/app/PendingIntent.getActivity (Landroid/content/Context;ILandroid/content/Intent;I)Landroid/app/PendingIntent;]
   + Methodref [android/content/Context.getSystemService (Ljava/lang/String;)Ljava/lang/Object;]
   + Methodref [android/content/Intent.<init> (Landroid/content/Context;Ljava/lang/Class;)V]
-  + Methodref [android/graphics/Typeface.create (Landroid/graphics/Typeface;I)Landroid/graphics/Typeface;]
   + Methodref [android/os/Process.killProcess (I)V]
   + Methodref [android/os/Process.myPid ()I]
   + Methodref [android/util/DisplayMetrics.<init> ()V]
@@ -124,8 +127,10 @@ Constant Pool (count = 444):
   + Methodref [com/aayvazyan/flappy/MainActivity.a (FF)V]
   + Methodref [com/aayvazyan/flappy/MainActivity.a (Lorg/andengine/c/e/a;)V]
   + Methodref [com/aayvazyan/flappy/MainActivity.a (Lorg/andengine/opengl/c/c/f;Lorg/andengine/c/e/a;)V]
+  + Methodref [com/aayvazyan/flappy/MainActivity.d ()V]
   + Methodref [com/aayvazyan/flappy/MainActivity.f ()V]
   + Methodref [com/aayvazyan/flappy/MainActivity.getApplicationContext ()Landroid/content/Context;]
+  + Methodref [com/aayvazyan/flappy/MainActivity.getAssets ()Landroid/content/res/AssetManager;]
   + Methodref [com/aayvazyan/flappy/MainActivity.getWindowManager ()Landroid/view/WindowManager;]
   + Methodref [com/aayvazyan/flappy/MainActivity.m ()Lorg/andengine/opengl/d/e;]
   + Methodref [com/aayvazyan/flappy/MainActivity.n ()Lorg/andengine/opengl/c/e;]
@@ -138,16 +143,19 @@ Constant Pool (count = 444):
   + Methodref [com/badlogic/gdx/physics/box2d/Body.a (Lcom/badlogic/gdx/a/a;)V]
   + Methodref [com/badlogic/gdx/physics/box2d/Body.d ()F]
   + Methodref [java/io/PrintStream.println (Ljava/lang/String;)V]
-  + Methodref [java/lang/String.length ()I]
+  + Methodref [java/lang/InterruptedException.printStackTrace ()V]
   + Methodref [java/lang/StringBuilder.<init> ()V]
   + Methodref [java/lang/StringBuilder.append (D)Ljava/lang/StringBuilder;]
   + Methodref [java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;]
   + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
   + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
   + Methodref [java/lang/System.currentTimeMillis ()J]
+  + Methodref [java/lang/Thread.sleep (J)V]
   + Methodref [org/andengine/b/a/a.<init> (FFFF)V]
   + Methodref [org/andengine/b/c/a/c.<init> (F)V]
   + Methodref [org/andengine/b/c/b.<init> (ZLorg/andengine/b/c/e;Lorg/andengine/b/c/a/b;Lorg/andengine/b/a/a;)V]
+  + Methodref [org/andengine/c/a.<init> ()V]
+  + Methodref [org/andengine/c/a.b (Lorg/andengine/c/c;)V]
   + Methodref [org/andengine/c/b/b.<init> (FFFFLorg/andengine/opengl/d/e;)V]
   + Methodref [org/andengine/c/c/a/a.<init> (FFFF)V]
   + Methodref [org/andengine/c/c/a/a.a (Lorg/andengine/c/c/a/e;)V]
@@ -163,6 +171,7 @@ Constant Pool (count = 444):
   + Methodref [org/andengine/c/e/a.d_ ()Ljava/lang/Object;]
   + Methodref [org/andengine/c/e/e.<init> (FFLorg/andengine/opengl/c/c/b;Lorg/andengine/opengl/d/e;)V]
   + Methodref [org/andengine/c/f/b.<init> (FFLorg/andengine/opengl/a/f;Ljava/lang/CharSequence;ILorg/andengine/opengl/d/e;)V]
+  + Methodref [org/andengine/c/f/b.a (Ljava/lang/CharSequence;)V]
   + Methodref [org/andengine/c/f/b.a (Lorg/andengine/f/d/a;)V]
   + Methodref [org/andengine/d/a/a/a.<init> (Lorg/andengine/c/d/a;Lcom/badlogic/gdx/physics/box2d/Body;ZZ)V]
   + Methodref [org/andengine/d/a/a/a/a.a (FF)Lcom/badlogic/gdx/a/a;]
@@ -175,7 +184,7 @@ Constant Pool (count = 444):
   + Methodref [org/andengine/e/a/h.d ()V]
   + Methodref [org/andengine/input/a/a.f ()Z]
   + Methodref [org/andengine/opengl/a/a.d ()V]
-  + Methodref [org/andengine/opengl/a/b.a (Lorg/andengine/opengl/a/c;Lorg/andengine/opengl/c/e;IILorg/andengine/opengl/c/f;Landroid/graphics/Typeface;F)Lorg/andengine/opengl/a/a;]
+  + Methodref [org/andengine/opengl/a/b.a (Lorg/andengine/opengl/a/c;Lorg/andengine/opengl/c/a;Landroid/content/res/AssetManager;Ljava/lang/String;FZI)Lorg/andengine/opengl/a/a;]
   + Methodref [org/andengine/opengl/c/a/a/a.<init> (Lorg/andengine/opengl/c/e;II)V]
   + Methodref [org/andengine/opengl/c/a/a/a.<init> (Lorg/andengine/opengl/c/e;IILorg/andengine/opengl/c/f;)V]
   + Methodref [org/andengine/opengl/c/a/a/a.f ()V]
@@ -202,12 +211,12 @@ Constant Pool (count = 444):
   + NameAndType [<init> (Lorg/andengine/opengl/c/e;II)V]
   + NameAndType [<init> (Lorg/andengine/opengl/c/e;IILorg/andengine/opengl/c/f;)V]
   + NameAndType [<init> (ZLorg/andengine/b/c/e;Lorg/andengine/b/c/a/b;Lorg/andengine/b/a/a;)V]
-  + NameAndType [DEFAULT Landroid/graphics/Typeface;]
   + NameAndType [a (F)V]
   + NameAndType [a (FF)Lcom/badlogic/gdx/a/a;]
   + NameAndType [a (FF)V]
   + NameAndType [a (FFF)Lcom/badlogic/gdx/physics/box2d/i;]
   + NameAndType [a (Lcom/badlogic/gdx/a/a;)V]
+  + NameAndType [a (Ljava/lang/CharSequence;)V]
   + NameAndType [a (Ljava/lang/Object;)V]
   + NameAndType [a (Ljava/lang/String;)V]
   + NameAndType [a (Lorg/andengine/b/b/d;)V]
@@ -219,7 +228,7 @@ Constant Pool (count = 444):
   + NameAndType [a (Lorg/andengine/d/a/a/a;)V]
   + NameAndType [a (Lorg/andengine/d/a/a/d;Lorg/andengine/c/d/a;Lcom/badlogic/gdx/physics/box2d/b;Lcom/badlogic/gdx/physics/box2d/i;)Lcom/badlogic/gdx/physics/box2d/Body;]
   + NameAndType [a (Lorg/andengine/f/d/a;)V]
-  + NameAndType [a (Lorg/andengine/opengl/a/c;Lorg/andengine/opengl/c/e;IILorg/andengine/opengl/c/f;Landroid/graphics/Typeface;F)Lorg/andengine/opengl/a/a;]
+  + NameAndType [a (Lorg/andengine/opengl/a/c;Lorg/andengine/opengl/c/a;Landroid/content/res/AssetManager;Ljava/lang/String;FZI)Lorg/andengine/opengl/a/a;]
   + NameAndType [a (Lorg/andengine/opengl/c/a/a/a;Landroid/content/Context;Ljava/lang/String;II)Lorg/andengine/opengl/c/c/d;]
   + NameAndType [a (Lorg/andengine/opengl/c/a/a/a;Landroid/content/Context;Ljava/lang/String;IIII)Lorg/andengine/opengl/c/c/f;]
   + NameAndType [a (Lorg/andengine/opengl/c/c/f;Lorg/andengine/c/e/a;)V]
@@ -227,6 +236,7 @@ Constant Pool (count = 444):
   + NameAndType [a I]
   + NameAndType [a Lcom/badlogic/gdx/physics/box2d/b;]
   + NameAndType [a Lorg/andengine/b/c/e;]
+  + NameAndType [a Lorg/andengine/f/d/a;]
   + NameAndType [append (D)Ljava/lang/StringBuilder;]
   + NameAndType [append (I)Ljava/lang/StringBuilder;]
   + NameAndType [append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
@@ -235,9 +245,7 @@ Constant Pool (count = 444):
   + NameAndType [b Lorg/andengine/opengl/c/f;]
   + NameAndType [c ()F]
   + NameAndType [c Lcom/badlogic/gdx/physics/box2d/b;]
-  + NameAndType [c Lorg/andengine/f/d/a;]
   + NameAndType [c Lorg/andengine/opengl/c/c/f;]
-  + NameAndType [create (Landroid/graphics/Typeface;I)Landroid/graphics/Typeface;]
   + NameAndType [currentTimeMillis ()J]
   + NameAndType [d ()F]
   + NameAndType [d ()V]
@@ -246,33 +254,36 @@ Constant Pool (count = 444):
   + NameAndType [e Lorg/andengine/c/c/e;]
   + NameAndType [f ()V]
   + NameAndType [f ()Z]
-  + NameAndType [f Lorg/andengine/c/f/b;]
+  + NameAndType [f Lorg/andengine/c/a;]
+  + NameAndType [g Lorg/andengine/c/f/b;]
   + NameAndType [getActivity (Landroid/content/Context;ILandroid/content/Intent;I)Landroid/app/PendingIntent;]
   + NameAndType [getApplicationContext ()Landroid/content/Context;]
+  + NameAndType [getAssets ()Landroid/content/res/AssetManager;]
   + NameAndType [getDefaultDisplay ()Landroid/view/Display;]
   + NameAndType [getMetrics (Landroid/util/DisplayMetrics;)V]
   + NameAndType [getSystemService (Ljava/lang/String;)Ljava/lang/Object;]
   + NameAndType [getWindowManager ()Landroid/view/WindowManager;]
   + NameAndType [heightPixels I]
-  + NameAndType [i Lorg/andengine/opengl/c/c/b;]
-  + NameAndType [j Lorg/andengine/opengl/c/a/a/a;]
+  + NameAndType [j Lorg/andengine/opengl/c/c/b;]
   + NameAndType [k Lorg/andengine/opengl/c/a/a/a;]
   + NameAndType [killProcess (I)V]
-  + NameAndType [l Lorg/andengine/opengl/c/c/b;]
-  + NameAndType [length ()I]
+  + NameAndType [l Lorg/andengine/opengl/c/a/a/a;]
   + NameAndType [m ()Lorg/andengine/opengl/d/e;]
-  + NameAndType [m Lorg/andengine/opengl/c/c/f;]
+  + NameAndType [m Lorg/andengine/opengl/c/c/b;]
   + NameAndType [myPid ()I]
   + NameAndType [n ()Lorg/andengine/opengl/c/e;]
-  + NameAndType [n Lorg/andengine/d/a/a/d;]
+  + NameAndType [n Lorg/andengine/opengl/c/c/f;]
   + NameAndType [o ()Lorg/andengine/opengl/a/c;]
-  + NameAndType [o Lorg/andengine/opengl/a/a;]
+  + NameAndType [o Lorg/andengine/d/a/a/d;]
   + NameAndType [out Ljava/io/PrintStream;]
-  + NameAndType [p Lorg/andengine/c/e/a;]
+  + NameAndType [p Lorg/andengine/opengl/a/a;]
+  + NameAndType [printStackTrace ()V]
   + NameAndType [println (Ljava/lang/String;)V]
-  + NameAndType [q Lorg/andengine/opengl/c/a/a/a;]
-  + NameAndType [r Lorg/andengine/opengl/c/c/d;]
+  + NameAndType [q Lorg/andengine/c/e/a;]
+  + NameAndType [r Lorg/andengine/opengl/c/a/a/a;]
+  + NameAndType [s Lorg/andengine/opengl/c/c/d;]
   + NameAndType [set (IJLandroid/app/PendingIntent;)V]
+  + NameAndType [sleep (J)V]
   + NameAndType [t ()Z]
   + NameAndType [toString ()Ljava/lang/String;]
   + NameAndType [widthPixels I]
@@ -280,6 +291,7 @@ Constant Pool (count = 444):
   + Utf8 [()I]
   + Utf8 [()J]
   + Utf8 [()Landroid/content/Context;]
+  + Utf8 [()Landroid/content/res/AssetManager;]
   + Utf8 [()Landroid/view/Display;]
   + Utf8 [()Landroid/view/WindowManager;]
   + Utf8 [()Ljava/lang/Object;]
@@ -306,12 +318,13 @@ Constant Pool (count = 444):
   + Utf8 [(I)Ljava/lang/StringBuilder;]
   + Utf8 [(I)V]
   + Utf8 [(IJLandroid/app/PendingIntent;)V]
+  + Utf8 [(J)V]
   + Utf8 [(Landroid/content/Context;ILandroid/content/Intent;I)Landroid/app/PendingIntent;]
   + Utf8 [(Landroid/content/Context;Ljava/lang/Class;)V]
-  + Utf8 [(Landroid/graphics/Typeface;I)Landroid/graphics/Typeface;]
   + Utf8 [(Landroid/util/DisplayMetrics;)V]
   + Utf8 [(Lcom/badlogic/gdx/a/a;)V]
   + Utf8 [(Lcom/badlogic/gdx/a/a;Z)V]
+  + Utf8 [(Ljava/lang/CharSequence;)V]
   + Utf8 [(Ljava/lang/Object;)V]
   + Utf8 [(Ljava/lang/String;)Ljava/lang/Object;]
   + Utf8 [(Ljava/lang/String;)Ljava/lang/StringBuilder;]
@@ -330,7 +343,7 @@ Constant Pool (count = 444):
   + Utf8 [(Lorg/andengine/f/d/a;)V]
   + Utf8 [(Lorg/andengine/input/a/a;Lorg/andengine/c/c/d;FF)Z]
   + Utf8 [(Lorg/andengine/input/sensor/a/a;)V]
-  + Utf8 [(Lorg/andengine/opengl/a/c;Lorg/andengine/opengl/c/e;IILorg/andengine/opengl/c/f;Landroid/graphics/Typeface;F)Lorg/andengine/opengl/a/a;]
+  + Utf8 [(Lorg/andengine/opengl/a/c;Lorg/andengine/opengl/c/a;Landroid/content/res/AssetManager;Ljava/lang/String;FZI)Lorg/andengine/opengl/a/a;]
   + Utf8 [(Lorg/andengine/opengl/c/a/a/a;Landroid/content/Context;Ljava/lang/String;II)Lorg/andengine/opengl/c/c/d;]
   + Utf8 [(Lorg/andengine/opengl/c/a/a/a;Landroid/content/Context;Ljava/lang/String;IIII)Lorg/andengine/opengl/c/c/f;]
   + Utf8 [(Lorg/andengine/opengl/c/c/f;Lorg/andengine/c/e/a;)V]
@@ -338,19 +351,17 @@ Constant Pool (count = 444):
   + Utf8 [(Lorg/andengine/opengl/c/e;IILorg/andengine/opengl/c/f;)V]
   + Utf8 [(ZLorg/andengine/b/c/e;Lorg/andengine/b/c/a/b;Lorg/andengine/b/a/a;)V]
   + Utf8 [(ZZ)V]
+  + Utf8 [0]
   + Utf8 [<clinit>]
   + Utf8 [<init>]
   + Utf8 [Code]
-  + Utf8 [DEFAULT]
-  + Utf8 [Debug:]
-  + Utf8 [Debug: XXXXXXXXXXXXXXXXXXXXX]
   + Utf8 [Hintergrund2.png]
   + Utf8 [I]
-  + Utf8 [Landroid/graphics/Typeface;]
   + Utf8 [Lcom/badlogic/gdx/physics/box2d/b;]
   + Utf8 [Ljava/io/PrintStream;]
   + Utf8 [Longtube.png]
   + Utf8 [Lorg/andengine/b/c/e;]
+  + Utf8 [Lorg/andengine/c/a;]
   + Utf8 [Lorg/andengine/c/c/e;]
   + Utf8 [Lorg/andengine/c/e/a;]
   + Utf8 [Lorg/andengine/c/f/b;]
@@ -362,6 +373,7 @@ Constant Pool (count = 444):
   + Utf8 [Lorg/andengine/opengl/c/c/d;]
   + Utf8 [Lorg/andengine/opengl/c/c/f;]
   + Utf8 [Lorg/andengine/opengl/c/f;]
+  + Utf8 [Score: 1234567890]
   + Utf8 [ScrollingBG.png]
   + Utf8 [StackMapTable]
   + Utf8 [Tube.png]
@@ -371,7 +383,6 @@ Constant Pool (count = 444):
   + Utf8 [android/app/PendingIntent]
   + Utf8 [android/content/Context]
   + Utf8 [android/content/Intent]
-  + Utf8 [android/graphics/Typeface]
   + Utf8 [android/os/Process]
   + Utf8 [android/util/DisplayMetrics]
   + Utf8 [android/view/Display]
@@ -386,15 +397,17 @@ Constant Pool (count = 444):
   + Utf8 [com/badlogic/gdx/a/a]
   + Utf8 [com/badlogic/gdx/physics/box2d/Body]
   + Utf8 [com/badlogic/gdx/physics/box2d/b]
-  + Utf8 [create]
   + Utf8 [currentTimeMillis]
   + Utf8 [cw:]
   + Utf8 [d]
   + Utf8 [d_]
   + Utf8 [e]
   + Utf8 [f]
+  + Utf8 [fnt/SCRIPTIN.ttf]
+  + Utf8 [g]
   + Utf8 [getActivity]
   + Utf8 [getApplicationContext]
+  + Utf8 [getAssets]
   + Utf8 [getDefaultDisplay]
   + Utf8 [getMetrics]
   + Utf8 [getSystemService]
@@ -402,16 +415,15 @@ Constant Pool (count = 444):
   + Utf8 [gfx/]
   + Utf8 [heightPixels]
   + Utf8 [hintergrund.png]
-  + Utf8 [i]
   + Utf8 [j]
   + Utf8 [java/io/PrintStream]
-  + Utf8 [java/lang/String]
+  + Utf8 [java/lang/InterruptedException]
   + Utf8 [java/lang/StringBuilder]
   + Utf8 [java/lang/System]
+  + Utf8 [java/lang/Thread]
   + Utf8 [k]
   + Utf8 [killProcess]
   + Utf8 [l]
-  + Utf8 [length]
   + Utf8 [m]
   + Utf8 [myPid]
   + Utf8 [n]
@@ -420,6 +432,7 @@ Constant Pool (count = 444):
   + Utf8 [org/andengine/b/c/a/c]
   + Utf8 [org/andengine/b/c/b]
   + Utf8 [org/andengine/b/c/e]
+  + Utf8 [org/andengine/c/a]
   + Utf8 [org/andengine/c/b/b]
   + Utf8 [org/andengine/c/c/a/a]
   + Utf8 [org/andengine/c/c/a/e]
@@ -447,63 +460,69 @@ Constant Pool (count = 444):
   + Utf8 [org/andengine/opengl/c/f]
   + Utf8 [out]
   + Utf8 [p]
+  + Utf8 [printStackTrace]
   + Utf8 [println]
   + Utf8 [q]
   + Utf8 [r]
+  + Utf8 [s]
   + Utf8 [set]
+  + Utf8 [sleep]
   + Utf8 [t]
   + Utf8 [toString]
   + Utf8 [widthPixels]
 
-Fields (count = 16):
+Fields (count = 17):
   + Field:        a I
     Access flags: 0x9
       = public static int a
   + Field:        b I
     Access flags: 0x9
       = public static int b
-  + Field:        i Lorg/andengine/opengl/c/c/b;
+  + Field:        j Lorg/andengine/opengl/c/c/b;
     Access flags: 0x2
-      = private org.andengine.opengl.c.c.b i
-  + Field:        j Lorg/andengine/opengl/c/a/a/a;
-    Access flags: 0x2
-      = private org.andengine.opengl.c.a.a.a j
+      = private org.andengine.opengl.c.c.b j
   + Field:        k Lorg/andengine/opengl/c/a/a/a;
     Access flags: 0x2
       = private org.andengine.opengl.c.a.a.a k
-  + Field:        l Lorg/andengine/opengl/c/c/b;
+  + Field:        l Lorg/andengine/opengl/c/a/a/a;
     Access flags: 0x2
-      = private org.andengine.opengl.c.c.b l
-  + Field:        m Lorg/andengine/opengl/c/c/f;
+      = private org.andengine.opengl.c.a.a.a l
+  + Field:        m Lorg/andengine/opengl/c/c/b;
     Access flags: 0x2
-      = private org.andengine.opengl.c.c.f m
+      = private org.andengine.opengl.c.c.b m
+  + Field:        n Lorg/andengine/opengl/c/c/f;
+    Access flags: 0x2
+      = private org.andengine.opengl.c.c.f n
   + Field:        c Lorg/andengine/opengl/c/c/f;
     Access flags: 0x1
       = public org.andengine.opengl.c.c.f c
   + Field:        d Lorg/andengine/opengl/c/c/f;
     Access flags: 0x1
       = public org.andengine.opengl.c.c.f d
-  + Field:        n Lorg/andengine/d/a/a/d;
+  + Field:        o Lorg/andengine/d/a/a/d;
     Access flags: 0x2
-      = private org.andengine.d.a.a.d n
-  + Field:        o Lorg/andengine/opengl/a/a;
+      = private org.andengine.d.a.a.d o
+  + Field:        p Lorg/andengine/opengl/a/a;
     Access flags: 0x2
-      = private org.andengine.opengl.a.a o
+      = private org.andengine.opengl.a.a p
   + Field:        e Lorg/andengine/c/c/e;
     Access flags: 0x1
       = public org.andengine.c.c.e e
-  + Field:        p Lorg/andengine/c/e/a;
-    Access flags: 0x2
-      = private org.andengine.c.e.a p
-  + Field:        q Lorg/andengine/opengl/c/a/a/a;
-    Access flags: 0x2
-      = private org.andengine.opengl.c.a.a.a q
-  + Field:        r Lorg/andengine/opengl/c/c/d;
-    Access flags: 0x2
-      = private org.andengine.opengl.c.c.d r
-  + Field:        f Lorg/andengine/c/f/b;
+  + Field:        f Lorg/andengine/c/a;
     Access flags: 0x1
-      = public org.andengine.c.f.b f
+      = public org.andengine.c.a f
+  + Field:        q Lorg/andengine/c/e/a;
+    Access flags: 0x2
+      = private org.andengine.c.e.a q
+  + Field:        r Lorg/andengine/opengl/c/a/a/a;
+    Access flags: 0x2
+      = private org.andengine.opengl.c.a.a.a r
+  + Field:        s Lorg/andengine/opengl/c/c/d;
+    Access flags: 0x2
+      = private org.andengine.opengl.c.c.d s
+  + Field:        g Lorg/andengine/c/f/b;
+    Access flags: 0x1
+      = public org.andengine.c.f.b g
 
 Methods (count = 15):
   - Method:       <init>()V
@@ -512,7 +531,7 @@ Methods (count = 15):
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 5, locals = 1, stack = 1):
       [0] aload_0 v0
-      [1] invokespecial #161
+      [1] invokespecial #171
         + Methodref [org/andengine/e/a/h.<init> ()V]
       [4] return
       Code attribute exceptions (count = 0):
@@ -522,26 +541,26 @@ Methods (count = 15):
       = public org.andengine.b.c.b a()
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 138, locals = 7, stack = 10):
-      [0] new #34
+      [0] new #35
         + Class [android/util/DisplayMetrics]
       [3] dup
-      [4] invokespecial #109
+      [4] invokespecial #113
         + Methodref [android/util/DisplayMetrics.<init> ()V]
       [7] astore_1 v1
       [8] aload_0 v0
-      [9] invokevirtual #116
+      [9] invokevirtual #122
         + Methodref [com/aayvazyan/flappy/MainActivity.getWindowManager ()Landroid/view/WindowManager;]
-      [12] invokeinterface #174
+      [12] invokeinterface #184
         + InterfaceMethodref [android/view/WindowManager.getDefaultDisplay ()Landroid/view/Display;]
       [17] aload_1 v1
-      [18] invokevirtual #110
+      [18] invokevirtual #114
         + Methodref [android/view/Display.getMetrics (Landroid/util/DisplayMetrics;)V]
       [21] aload_1 v1
-      [22] getfield #79
+      [22] getfield #83
         + Fieldref [android/util/DisplayMetrics.widthPixels I]
       [25] istore_2 v2
       [26] aload_1 v1
-      [27] getfield #78
+      [27] getfield #82
         + Fieldref [android/util/DisplayMetrics.heightPixels I]
       [30] istore_3 v3
       [31] iload_3 v3
@@ -550,77 +569,77 @@ Methods (count = 15):
       [34] i2d
       [35] ddiv
       [36] dstore v4
-      [38] getstatic #81
+      [38] getstatic #85
         + Fieldref [com/aayvazyan/flappy/MainActivity.b I]
       [41] i2d
       [42] dload v4
       [44] ddiv
       [45] d2i
-      [46] putstatic #80
+      [46] putstatic #84
         + Fieldref [com/aayvazyan/flappy/MainActivity.a I]
-      [49] getstatic #98
+      [49] getstatic #103
         + Fieldref [java/lang/System.out Ljava/io/PrintStream;]
-      [52] new #44
+      [52] new #45
         + Class [java/lang/StringBuilder]
       [55] dup
-      [56] invokespecial #129
+      [56] invokespecial #135
         + Methodref [java/lang/StringBuilder.<init> ()V]
-      [59] ldc #24
+      [59] ldc #25
         + String [cw:]
-      [61] invokevirtual #132
+      [61] invokevirtual #138
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [64] iload_2 v2
-      [65] invokevirtual #131
+      [65] invokevirtual #137
         + Methodref [java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;]
-      [68] ldc #23
+      [68] ldc #24
         + String [ch]
-      [70] invokevirtual #132
+      [70] invokevirtual #138
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [73] iload_3 v3
-      [74] invokevirtual #131
+      [74] invokevirtual #137
         + Methodref [java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;]
-      [77] ldc #27
+      [77] ldc #29
         + String [r]
-      [79] invokevirtual #132
+      [79] invokevirtual #138
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [82] dload v4
-      [84] invokevirtual #130
+      [84] invokevirtual #136
         + Methodref [java/lang/StringBuilder.append (D)Ljava/lang/StringBuilder;]
-      [87] invokevirtual #133
+      [87] invokevirtual #139
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
-      [90] invokevirtual #127
+      [90] invokevirtual #133
         + Methodref [java/io/PrintStream.println (Ljava/lang/String;)V]
-      [93] new #46
+      [93] new #48
         + Class [org/andengine/b/a/a]
       [96] dup
       [97] fconst_0
       [98] fconst_0
-      [99] getstatic #80
+      [99] getstatic #84
         + Fieldref [com/aayvazyan/flappy/MainActivity.a I]
       [102] i2f
-      [103] getstatic #81
+      [103] getstatic #85
         + Fieldref [com/aayvazyan/flappy/MainActivity.b I]
       [106] i2f
-      [107] invokespecial #135
+      [107] invokespecial #142
         + Methodref [org/andengine/b/a/a.<init> (FFFF)V]
       [110] astore v6
-      [112] new #48
+      [112] new #50
         + Class [org/andengine/b/c/b]
       [115] dup
       [116] iconst_1
-      [117] getstatic #99
+      [117] getstatic #104
         + Fieldref [org/andengine/b/c/e.a Lorg/andengine/b/c/e;]
-      [120] new #47
+      [120] new #49
         + Class [org/andengine/b/c/a/c]
       [123] dup
       [124] dconst_1
       [125] dload v4
       [127] ddiv
       [128] d2f
-      [129] invokespecial #136
+      [129] invokespecial #143
         + Methodref [org/andengine/b/c/a/c.<init> (F)V]
       [132] aload v6
-      [134] invokespecial #137
+      [134] invokespecial #144
         + Methodref [org/andengine/b/c/b.<init> (ZLorg/andengine/b/c/e;Lorg/andengine/b/c/a/b;Lorg/andengine/b/a/a;)V]
       [137] areturn
       Code attribute exceptions (count = 0):
@@ -629,138 +648,138 @@ Methods (count = 15):
     Access flags: 0x1
       = public void b()
     Class member attributes (count = 1):
-    + Code attribute instructions (code length = 238, locals = 1, stack = 8):
-      [0] ldc #25
+    + Code attribute instructions (code length = 248, locals = 2, stack = 8):
+      [0] ldc #27
         + String [gfx/]
-      [2] invokestatic #169
+      [2] invokestatic #179
         + Methodref [org/andengine/opengl/c/a/a/b.a (Ljava/lang/String;)V]
       [5] aload_0 v0
-      [6] new #69
+      [6] new #72
         + Class [org/andengine/opengl/c/a/a/a]
       [9] dup
       [10] aload_0 v0
-      [11] invokevirtual #118
+      [11] invokevirtual #124
         + Methodref [com/aayvazyan/flappy/MainActivity.n ()Lorg/andengine/opengl/c/e;]
       [14] bipush 32
       [16] bipush 32
-      [18] getstatic #101
+      [18] getstatic #106
         + Fieldref [org/andengine/opengl/c/f.b Lorg/andengine/opengl/c/f;]
-      [21] invokespecial #167
+      [21] invokespecial #177
         + Methodref [org/andengine/opengl/c/a/a/a.<init> (Lorg/andengine/opengl/c/e;IILorg/andengine/opengl/c/f;)V]
-      [24] putfield #87
-        + Fieldref [com/aayvazyan/flappy/MainActivity.j Lorg/andengine/opengl/c/a/a/a;]
+      [24] putfield #92
+        + Fieldref [com/aayvazyan/flappy/MainActivity.k Lorg/andengine/opengl/c/a/a/a;]
       [27] aload_0 v0
       [28] aload_0 v0
-      [29] getfield #87
-        + Fieldref [com/aayvazyan/flappy/MainActivity.j Lorg/andengine/opengl/c/a/a/a;]
+      [29] getfield #92
+        + Fieldref [com/aayvazyan/flappy/MainActivity.k Lorg/andengine/opengl/c/a/a/a;]
       [32] aload_0 v0
-      [33] ldc #22
+      [33] ldc #23
         + String [birdy.png]
       [35] iconst_0
       [36] iconst_0
       [37] iconst_1
       [38] iconst_1
-      [39] invokestatic #171
+      [39] invokestatic #181
         + Methodref [org/andengine/opengl/c/a/a/b.a (Lorg/andengine/opengl/c/a/a/a;Landroid/content/Context;Ljava/lang/String;IIII)Lorg/andengine/opengl/c/c/f;]
-      [42] putfield #90
-        + Fieldref [com/aayvazyan/flappy/MainActivity.m Lorg/andengine/opengl/c/c/f;]
+      [42] putfield #95
+        + Fieldref [com/aayvazyan/flappy/MainActivity.n Lorg/andengine/opengl/c/c/f;]
       [45] aload_0 v0
-      [46] getfield #87
-        + Fieldref [com/aayvazyan/flappy/MainActivity.j Lorg/andengine/opengl/c/a/a/a;]
-      [49] invokevirtual #168
+      [46] getfield #92
+        + Fieldref [com/aayvazyan/flappy/MainActivity.k Lorg/andengine/opengl/c/a/a/a;]
+      [49] invokevirtual #178
         + Methodref [org/andengine/opengl/c/a/a/a.f ()V]
       [52] aload_0 v0
-      [53] new #69
+      [53] new #72
         + Class [org/andengine/opengl/c/a/a/a]
       [56] dup
       [57] aload_0 v0
-      [58] invokevirtual #118
+      [58] invokevirtual #124
         + Methodref [com/aayvazyan/flappy/MainActivity.n ()Lorg/andengine/opengl/c/e;]
       [61] sipush 1024
       [64] sipush 1024
-      [67] invokespecial #166
+      [67] invokespecial #176
         + Methodref [org/andengine/opengl/c/a/a/a.<init> (Lorg/andengine/opengl/c/e;II)V]
-      [70] putfield #94
-        + Fieldref [com/aayvazyan/flappy/MainActivity.q Lorg/andengine/opengl/c/a/a/a;]
+      [70] putfield #99
+        + Fieldref [com/aayvazyan/flappy/MainActivity.r Lorg/andengine/opengl/c/a/a/a;]
       [73] aload_0 v0
       [74] aload_0 v0
-      [75] getfield #94
-        + Fieldref [com/aayvazyan/flappy/MainActivity.q Lorg/andengine/opengl/c/a/a/a;]
+      [75] getfield #99
+        + Fieldref [com/aayvazyan/flappy/MainActivity.r Lorg/andengine/opengl/c/a/a/a;]
       [78] aload_0 v0
       [79] ldc #17
         + String [Hintergrund2.png]
       [81] iconst_0
       [82] iconst_0
-      [83] invokestatic #170
+      [83] invokestatic #180
         + Methodref [org/andengine/opengl/c/a/a/b.a (Lorg/andengine/opengl/c/a/a/a;Landroid/content/Context;Ljava/lang/String;II)Lorg/andengine/opengl/c/c/d;]
-      [86] putfield #89
-        + Fieldref [com/aayvazyan/flappy/MainActivity.l Lorg/andengine/opengl/c/c/b;]
+      [86] putfield #94
+        + Fieldref [com/aayvazyan/flappy/MainActivity.m Lorg/andengine/opengl/c/c/b;]
       [89] aload_0 v0
       [90] aload_0 v0
-      [91] getfield #94
-        + Fieldref [com/aayvazyan/flappy/MainActivity.q Lorg/andengine/opengl/c/a/a/a;]
+      [91] getfield #99
+        + Fieldref [com/aayvazyan/flappy/MainActivity.r Lorg/andengine/opengl/c/a/a/a;]
       [94] aload_0 v0
-      [95] ldc #26
+      [95] ldc #28
         + String [hintergrund.png]
       [97] iconst_0
       [98] iconst_0
-      [99] invokestatic #170
+      [99] invokestatic #180
         + Methodref [org/andengine/opengl/c/a/a/b.a (Lorg/andengine/opengl/c/a/a/a;Landroid/content/Context;Ljava/lang/String;II)Lorg/andengine/opengl/c/c/d;]
-      [102] putfield #95
-        + Fieldref [com/aayvazyan/flappy/MainActivity.r Lorg/andengine/opengl/c/c/d;]
+      [102] putfield #100
+        + Fieldref [com/aayvazyan/flappy/MainActivity.s Lorg/andengine/opengl/c/c/d;]
       [105] aload_0 v0
       [106] aload_0 v0
-      [107] getfield #94
-        + Fieldref [com/aayvazyan/flappy/MainActivity.q Lorg/andengine/opengl/c/a/a/a;]
+      [107] getfield #99
+        + Fieldref [com/aayvazyan/flappy/MainActivity.r Lorg/andengine/opengl/c/a/a/a;]
       [110] aload_0 v0
-      [111] ldc #19
+      [111] ldc #20
         + String [ScrollingBG.png]
       [113] iconst_0
-      [114] getstatic #81
+      [114] getstatic #85
         + Fieldref [com/aayvazyan/flappy/MainActivity.b I]
-      [117] invokestatic #170
+      [117] invokestatic #180
         + Methodref [org/andengine/opengl/c/a/a/b.a (Lorg/andengine/opengl/c/a/a/a;Landroid/content/Context;Ljava/lang/String;II)Lorg/andengine/opengl/c/c/d;]
-      [120] putfield #86
-        + Fieldref [com/aayvazyan/flappy/MainActivity.i Lorg/andengine/opengl/c/c/b;]
+      [120] putfield #91
+        + Fieldref [com/aayvazyan/flappy/MainActivity.j Lorg/andengine/opengl/c/c/b;]
       [123] aload_0 v0
-      [124] getfield #94
-        + Fieldref [com/aayvazyan/flappy/MainActivity.q Lorg/andengine/opengl/c/a/a/a;]
-      [127] invokevirtual #168
+      [124] getfield #99
+        + Fieldref [com/aayvazyan/flappy/MainActivity.r Lorg/andengine/opengl/c/a/a/a;]
+      [127] invokevirtual #178
         + Methodref [org/andengine/opengl/c/a/a/a.f ()V]
       [130] aload_0 v0
-      [131] new #69
+      [131] new #72
         + Class [org/andengine/opengl/c/a/a/a]
       [134] dup
       [135] aload_0 v0
-      [136] invokevirtual #118
+      [136] invokevirtual #124
         + Methodref [com/aayvazyan/flappy/MainActivity.n ()Lorg/andengine/opengl/c/e;]
       [139] sipush 1024
       [142] sipush 1024
-      [145] getstatic #101
+      [145] getstatic #106
         + Fieldref [org/andengine/opengl/c/f.b Lorg/andengine/opengl/c/f;]
-      [148] invokespecial #167
+      [148] invokespecial #177
         + Methodref [org/andengine/opengl/c/a/a/a.<init> (Lorg/andengine/opengl/c/e;IILorg/andengine/opengl/c/f;)V]
-      [151] putfield #88
-        + Fieldref [com/aayvazyan/flappy/MainActivity.k Lorg/andengine/opengl/c/a/a/a;]
+      [151] putfield #93
+        + Fieldref [com/aayvazyan/flappy/MainActivity.l Lorg/andengine/opengl/c/a/a/a;]
       [154] aload_0 v0
       [155] aload_0 v0
-      [156] getfield #88
-        + Fieldref [com/aayvazyan/flappy/MainActivity.k Lorg/andengine/opengl/c/a/a/a;]
+      [156] getfield #93
+        + Fieldref [com/aayvazyan/flappy/MainActivity.l Lorg/andengine/opengl/c/a/a/a;]
       [159] aload_0 v0
-      [160] ldc #20
+      [160] ldc #21
         + String [Tube.png]
       [162] iconst_0
       [163] iconst_0
       [164] iconst_1
       [165] iconst_1
-      [166] invokestatic #171
+      [166] invokestatic #181
         + Methodref [org/andengine/opengl/c/a/a/b.a (Lorg/andengine/opengl/c/a/a/a;Landroid/content/Context;Ljava/lang/String;IIII)Lorg/andengine/opengl/c/c/f;]
-      [169] putfield #82
+      [169] putfield #86
         + Fieldref [com/aayvazyan/flappy/MainActivity.c Lorg/andengine/opengl/c/c/f;]
       [172] aload_0 v0
       [173] aload_0 v0
-      [174] getfield #88
-        + Fieldref [com/aayvazyan/flappy/MainActivity.k Lorg/andengine/opengl/c/a/a/a;]
+      [174] getfield #93
+        + Fieldref [com/aayvazyan/flappy/MainActivity.l Lorg/andengine/opengl/c/a/a/a;]
       [177] aload_0 v0
       [178] ldc #18
         + String [Longtube.png]
@@ -768,121 +787,130 @@ Methods (count = 15):
       [181] iconst_0
       [182] iconst_1
       [183] iconst_1
-      [184] invokestatic #171
+      [184] invokestatic #181
         + Methodref [org/andengine/opengl/c/a/a/b.a (Lorg/andengine/opengl/c/a/a/a;Landroid/content/Context;Ljava/lang/String;IIII)Lorg/andengine/opengl/c/c/f;]
-      [187] putfield #83
+      [187] putfield #87
         + Fieldref [com/aayvazyan/flappy/MainActivity.d Lorg/andengine/opengl/c/c/f;]
       [190] aload_0 v0
-      [191] getfield #88
-        + Fieldref [com/aayvazyan/flappy/MainActivity.k Lorg/andengine/opengl/c/a/a/a;]
-      [194] invokevirtual #168
+      [191] getfield #93
+        + Fieldref [com/aayvazyan/flappy/MainActivity.l Lorg/andengine/opengl/c/a/a/a;]
+      [194] invokevirtual #178
         + Methodref [org/andengine/opengl/c/a/a/a.f ()V]
-      [197] aload_0 v0
-      [198] aload_0 v0
-      [199] invokevirtual #119
-        + Methodref [com/aayvazyan/flappy/MainActivity.o ()Lorg/andengine/opengl/a/c;]
-      [202] aload_0 v0
-      [203] invokevirtual #118
+      [197] new #72
+        + Class [org/andengine/opengl/c/a/a/a]
+      [200] dup
+      [201] aload_0 v0
+      [202] invokevirtual #124
         + Methodref [com/aayvazyan/flappy/MainActivity.n ()Lorg/andengine/opengl/c/e;]
-      [206] sipush 256
-      [209] sipush 256
-      [212] getstatic #101
+      [205] sipush 1024
+      [208] sipush 1024
+      [211] getstatic #106
         + Fieldref [org/andengine/opengl/c/f.b Lorg/andengine/opengl/c/f;]
-      [215] getstatic #77
-        + Fieldref [android/graphics/Typeface.DEFAULT Landroid/graphics/Typeface;]
-      [218] iconst_1
-      [219] invokestatic #106
-        + Methodref [android/graphics/Typeface.create (Landroid/graphics/Typeface;I)Landroid/graphics/Typeface;]
-      [222] ldc #10
-        + Float [12.0]
-      [224] invokestatic #165
-        + Methodref [org/andengine/opengl/a/b.a (Lorg/andengine/opengl/a/c;Lorg/andengine/opengl/c/e;IILorg/andengine/opengl/c/f;Landroid/graphics/Typeface;F)Lorg/andengine/opengl/a/a;]
-      [227] putfield #92
-        + Fieldref [com/aayvazyan/flappy/MainActivity.o Lorg/andengine/opengl/a/a;]
-      [230] aload_0 v0
-      [231] getfield #92
-        + Fieldref [com/aayvazyan/flappy/MainActivity.o Lorg/andengine/opengl/a/a;]
-      [234] invokevirtual #164
+      [214] invokespecial #177
+        + Methodref [org/andengine/opengl/c/a/a/a.<init> (Lorg/andengine/opengl/c/e;IILorg/andengine/opengl/c/f;)V]
+      [217] astore_1 v1
+      [218] aload_0 v0
+      [219] aload_0 v0
+      [220] invokevirtual #125
+        + Methodref [com/aayvazyan/flappy/MainActivity.o ()Lorg/andengine/opengl/a/c;]
+      [223] aload_1 v1
+      [224] aload_0 v0
+      [225] invokevirtual #121
+        + Methodref [com/aayvazyan/flappy/MainActivity.getAssets ()Landroid/content/res/AssetManager;]
+      [228] ldc #26
+        + String [fnt/SCRIPTIN.ttf]
+      [230] ldc #12
+        + Float [30.0]
+      [232] iconst_1
+      [233] iconst_m1
+      [234] invokestatic #175
+        + Methodref [org/andengine/opengl/a/b.a (Lorg/andengine/opengl/a/c;Lorg/andengine/opengl/c/a;Landroid/content/res/AssetManager;Ljava/lang/String;FZI)Lorg/andengine/opengl/a/a;]
+      [237] putfield #97
+        + Fieldref [com/aayvazyan/flappy/MainActivity.p Lorg/andengine/opengl/a/a;]
+      [240] aload_0 v0
+      [241] getfield #97
+        + Fieldref [com/aayvazyan/flappy/MainActivity.p Lorg/andengine/opengl/a/a;]
+      [244] invokevirtual #174
         + Methodref [org/andengine/opengl/a/a.d ()V]
-      [237] return
+      [247] return
       Code attribute exceptions (count = 0):
       Code attribute attributes (attribute count = 0):
   + Method:       c()Lorg/andengine/c/c/e;
     Access flags: 0x1
       = public org.andengine.c.c.e c()
     Class member attributes (count = 1):
-    + Code attribute instructions (code length = 467, locals = 8, stack = 10):
+    + Code attribute instructions (code length = 495, locals = 8, stack = 10):
       [0] aload_0 v0
-      [1] new #62
+      [1] new #65
         + Class [org/andengine/d/a/a/d]
       [4] dup
-      [5] new #39
+      [5] new #40
         + Class [com/badlogic/gdx/a/a]
       [8] dup
       [9] fconst_0
-      [10] ldc #11
+      [10] ldc #13
         + Float [39.2266]
-      [12] invokespecial #123
+      [12] invokespecial #129
         + Methodref [com/badlogic/gdx/a/a.<init> (FF)V]
       [15] iconst_0
-      [16] invokespecial #159
+      [16] invokespecial #169
         + Methodref [org/andengine/d/a/a/d.<init> (Lcom/badlogic/gdx/a/a;Z)V]
-      [19] putfield #91
-        + Fieldref [com/aayvazyan/flappy/MainActivity.n Lorg/andengine/d/a/a/d;]
+      [19] putfield #96
+        + Fieldref [com/aayvazyan/flappy/MainActivity.o Lorg/andengine/d/a/a/d;]
       [22] aload_0 v0
-      [23] new #55
+      [23] new #58
         + Class [org/andengine/c/c/e]
       [26] dup
-      [27] invokespecial #142
+      [27] invokespecial #151
         + Methodref [org/andengine/c/c/e.<init> ()V]
-      [30] putfield #84
+      [30] putfield #88
         + Fieldref [com/aayvazyan/flappy/MainActivity.e Lorg/andengine/c/c/e;]
       [33] aload_0 v0
-      [34] getfield #84
+      [34] getfield #88
         + Fieldref [com/aayvazyan/flappy/MainActivity.e Lorg/andengine/c/c/e;]
       [37] aload_0 v0
-      [38] invokevirtual #146
+      [38] invokevirtual #155
         + Methodref [org/andengine/c/c/e.a (Lorg/andengine/c/c/c;)V]
       [41] aload_0 v0
-      [42] invokevirtual #117
+      [42] invokevirtual #123
         + Methodref [com/aayvazyan/flappy/MainActivity.m ()Lorg/andengine/opengl/d/e;]
       [45] astore_1 v1
-      [46] new #50
+      [46] new #53
         + Class [org/andengine/c/b/b]
       [49] dup
       [50] ldc #6
         + Float [-2.0]
-      [52] getstatic #81
+      [52] getstatic #85
         + Fieldref [com/aayvazyan/flappy/MainActivity.b I]
       [55] i2f
-      [56] getstatic #80
+      [56] getstatic #84
         + Fieldref [com/aayvazyan/flappy/MainActivity.a I]
       [59] iconst_2
       [60] isub
       [61] i2f
       [62] fconst_0
       [63] aload_1 v1
-      [64] invokespecial #138
+      [64] invokespecial #147
         + Methodref [org/andengine/c/b/b.<init> (FFFFLorg/andengine/opengl/d/e;)V]
       [67] astore_2 v2
-      [68] new #50
+      [68] new #53
         + Class [org/andengine/c/b/b]
       [71] dup
       [72] ldc #6
         + Float [-2.0]
       [74] ldc #6
         + Float [-2.0]
-      [76] getstatic #80
+      [76] getstatic #84
         + Fieldref [com/aayvazyan/flappy/MainActivity.a I]
       [79] iconst_2
       [80] iadd
       [81] i2f
       [82] fconst_0
       [83] aload_1 v1
-      [84] invokespecial #138
+      [84] invokespecial #147
         + Methodref [org/andengine/c/b/b.<init> (FFFFLorg/andengine/opengl/d/e;)V]
       [87] astore_3 v3
-      [88] new #50
+      [88] new #53
         + Class [org/andengine/c/b/b]
       [91] dup
       [92] ldc #6
@@ -890,19 +918,19 @@ Methods (count = 15):
       [94] ldc #6
         + Float [-2.0]
       [96] fconst_0
-      [97] getstatic #81
+      [97] getstatic #85
         + Fieldref [com/aayvazyan/flappy/MainActivity.b I]
       [100] iconst_2
       [101] isub
       [102] i2f
       [103] aload_1 v1
-      [104] invokespecial #138
+      [104] invokespecial #147
         + Methodref [org/andengine/c/b/b.<init> (FFFFLorg/andengine/opengl/d/e;)V]
       [107] astore v4
-      [109] new #50
+      [109] new #53
         + Class [org/andengine/c/b/b]
       [112] dup
-      [113] getstatic #80
+      [113] getstatic #84
         + Fieldref [com/aayvazyan/flappy/MainActivity.a I]
       [116] iconst_4
       [117] isub
@@ -910,13 +938,13 @@ Methods (count = 15):
       [119] ldc #6
         + Float [-2.0]
       [121] fconst_0
-      [122] getstatic #81
+      [122] getstatic #85
         + Fieldref [com/aayvazyan/flappy/MainActivity.b I]
       [125] iconst_2
       [126] isub
       [127] i2f
       [128] aload_1 v1
-      [129] invokespecial #138
+      [129] invokespecial #147
         + Methodref [org/andengine/c/b/b.<init> (FFFFLorg/andengine/opengl/d/e;)V]
       [132] astore v5
       [134] fconst_0
@@ -924,244 +952,264 @@ Methods (count = 15):
         + Float [0.5]
       [137] ldc #8
         + Float [0.5]
-      [139] invokestatic #157
+      [139] invokestatic #167
         + Methodref [org/andengine/d/a/a/c.a (FFF)Lcom/badlogic/gdx/physics/box2d/i;]
       [142] astore v6
       [144] aload_0 v0
-      [145] getfield #91
-        + Fieldref [com/aayvazyan/flappy/MainActivity.n Lorg/andengine/d/a/a/d;]
+      [145] getfield #96
+        + Fieldref [com/aayvazyan/flappy/MainActivity.o Lorg/andengine/d/a/a/d;]
       [148] aload_2 v2
-      [149] getstatic #96
+      [149] getstatic #101
         + Fieldref [com/badlogic/gdx/physics/box2d/b.a Lcom/badlogic/gdx/physics/box2d/b;]
       [152] aload v6
-      [154] invokestatic #158
+      [154] invokestatic #168
         + Methodref [org/andengine/d/a/a/c.a (Lorg/andengine/d/a/a/d;Lorg/andengine/c/d/a;Lcom/badlogic/gdx/physics/box2d/b;Lcom/badlogic/gdx/physics/box2d/i;)Lcom/badlogic/gdx/physics/box2d/Body;]
       [157] pop
       [158] aload_0 v0
-      [159] getfield #91
-        + Fieldref [com/aayvazyan/flappy/MainActivity.n Lorg/andengine/d/a/a/d;]
+      [159] getfield #96
+        + Fieldref [com/aayvazyan/flappy/MainActivity.o Lorg/andengine/d/a/a/d;]
       [162] aload_3 v3
-      [163] getstatic #96
+      [163] getstatic #101
         + Fieldref [com/badlogic/gdx/physics/box2d/b.a Lcom/badlogic/gdx/physics/box2d/b;]
       [166] aload v6
-      [168] invokestatic #158
+      [168] invokestatic #168
         + Methodref [org/andengine/d/a/a/c.a (Lorg/andengine/d/a/a/d;Lorg/andengine/c/d/a;Lcom/badlogic/gdx/physics/box2d/b;Lcom/badlogic/gdx/physics/box2d/i;)Lcom/badlogic/gdx/physics/box2d/Body;]
       [171] pop
       [172] aload_0 v0
-      [173] getfield #91
-        + Fieldref [com/aayvazyan/flappy/MainActivity.n Lorg/andengine/d/a/a/d;]
+      [173] getfield #96
+        + Fieldref [com/aayvazyan/flappy/MainActivity.o Lorg/andengine/d/a/a/d;]
       [176] aload v4
-      [178] getstatic #96
+      [178] getstatic #101
         + Fieldref [com/badlogic/gdx/physics/box2d/b.a Lcom/badlogic/gdx/physics/box2d/b;]
       [181] aload v6
-      [183] invokestatic #158
+      [183] invokestatic #168
         + Methodref [org/andengine/d/a/a/c.a (Lorg/andengine/d/a/a/d;Lorg/andengine/c/d/a;Lcom/badlogic/gdx/physics/box2d/b;Lcom/badlogic/gdx/physics/box2d/i;)Lcom/badlogic/gdx/physics/box2d/Body;]
       [186] pop
       [187] aload_0 v0
-      [188] getfield #91
-        + Fieldref [com/aayvazyan/flappy/MainActivity.n Lorg/andengine/d/a/a/d;]
+      [188] getfield #96
+        + Fieldref [com/aayvazyan/flappy/MainActivity.o Lorg/andengine/d/a/a/d;]
       [191] aload v5
-      [193] getstatic #96
+      [193] getstatic #101
         + Fieldref [com/badlogic/gdx/physics/box2d/b.a Lcom/badlogic/gdx/physics/box2d/b;]
       [196] aload v6
-      [198] invokestatic #158
+      [198] invokestatic #168
         + Methodref [org/andengine/d/a/a/c.a (Lorg/andengine/d/a/a/d;Lorg/andengine/c/d/a;Lcom/badlogic/gdx/physics/box2d/b;Lcom/badlogic/gdx/physics/box2d/i;)Lcom/badlogic/gdx/physics/box2d/Body;]
       [201] pop
       [202] aload_0 v0
-      [203] getfield #84
+      [203] getfield #88
         + Fieldref [com/aayvazyan/flappy/MainActivity.e Lorg/andengine/c/c/e;]
       [206] aload_2 v2
-      [207] invokevirtual #147
+      [207] invokevirtual #156
         + Methodref [org/andengine/c/c/e.b (Lorg/andengine/c/c;)V]
       [210] aload_0 v0
-      [211] getfield #84
+      [211] getfield #88
         + Fieldref [com/aayvazyan/flappy/MainActivity.e Lorg/andengine/c/c/e;]
       [214] aload v4
-      [216] invokevirtual #147
+      [216] invokevirtual #156
         + Methodref [org/andengine/c/c/e.b (Lorg/andengine/c/c;)V]
       [219] aload_0 v0
-      [220] getfield #84
+      [220] getfield #88
         + Fieldref [com/aayvazyan/flappy/MainActivity.e Lorg/andengine/c/c/e;]
       [223] aload v5
-      [225] invokevirtual #147
+      [225] invokevirtual #156
         + Methodref [org/andengine/c/c/e.b (Lorg/andengine/c/c;)V]
       [228] aload_0 v0
-      [229] ldc #13
+      [229] ldc #14
         + Float [100.0]
-      [231] ldc #14
+      [231] ldc #15
         + Float [200.0]
-      [233] invokespecial #111
+      [233] invokespecial #115
         + Methodref [com/aayvazyan/flappy/MainActivity.a (FF)V]
-      [236] aload_0 v0
-      [237] new #58
-        + Class [org/andengine/c/f/b]
-      [240] dup
-      [241] ldc #13
-        + Float [100.0]
-      [243] ldc #12
-        + Float [50.0]
-      [245] aload_0 v0
-      [246] getfield #92
-        + Fieldref [com/aayvazyan/flappy/MainActivity.o Lorg/andengine/opengl/a/a;]
-      [249] ldc #15
-        + String [Debug:]
-      [251] ldc #16
-        + String [Debug: XXXXXXXXXXXXXXXXXXXXX]
-      [253] invokevirtual #128
-        + Methodref [java/lang/String.length ()I]
-      [256] aload_0 v0
-      [257] invokevirtual #117
-        + Methodref [com/aayvazyan/flappy/MainActivity.m ()Lorg/andengine/opengl/d/e;]
-      [260] invokespecial #152
-        + Methodref [org/andengine/c/f/b.<init> (FFLorg/andengine/opengl/a/f;Ljava/lang/CharSequence;ILorg/andengine/opengl/d/e;)V]
-      [263] putfield #85
-        + Fieldref [com/aayvazyan/flappy/MainActivity.f Lorg/andengine/c/f/b;]
-      [266] aload_0 v0
-      [267] getfield #85
-        + Fieldref [com/aayvazyan/flappy/MainActivity.f Lorg/andengine/c/f/b;]
-      [270] getstatic #100
-        + Fieldref [org/andengine/f/d/a.c Lorg/andengine/f/d/a;]
-      [273] invokevirtual #153
-        + Methodref [org/andengine/c/f/b.a (Lorg/andengine/f/d/a;)V]
-      [276] aload_0 v0
-      [277] getfield #84
-        + Fieldref [com/aayvazyan/flappy/MainActivity.e Lorg/andengine/c/c/e;]
-      [280] aload_0 v0
-      [281] getfield #85
-        + Fieldref [com/aayvazyan/flappy/MainActivity.f Lorg/andengine/c/f/b;]
-      [284] invokevirtual #147
-        + Methodref [org/andengine/c/c/e.b (Lorg/andengine/c/c;)V]
-      [287] new #51
+      [236] new #54
         + Class [org/andengine/c/c/a/a]
-      [290] dup
-      [291] fconst_0
-      [292] fconst_0
-      [293] fconst_0
-      [294] ldc #9
+      [239] dup
+      [240] fconst_0
+      [241] fconst_0
+      [242] fconst_0
+      [243] ldc #10
         + Float [5.0]
-      [296] invokespecial #139
+      [245] invokespecial #148
         + Methodref [org/andengine/c/c/a/a.<init> (FFFF)V]
-      [299] astore v7
-      [301] aload v7
-      [303] new #52
+      [248] astore v7
+      [250] aload v7
+      [252] new #55
         + Class [org/andengine/c/c/a/e]
-      [306] dup
-      [307] ldc #7
+      [255] dup
+      [256] ldc #7
         + Float [-1.0]
-      [309] new #57
+      [258] new #60
         + Class [org/andengine/c/e/e]
-      [312] dup
-      [313] fconst_0
-      [314] getstatic #81
+      [261] dup
+      [262] fconst_0
+      [263] getstatic #85
         + Fieldref [com/aayvazyan/flappy/MainActivity.b I]
-      [317] i2f
-      [318] aload_0 v0
-      [319] getfield #86
-        + Fieldref [com/aayvazyan/flappy/MainActivity.i Lorg/andengine/opengl/c/c/b;]
-      [322] invokeinterface #175
+      [266] i2f
+      [267] aload_0 v0
+      [268] getfield #91
+        + Fieldref [com/aayvazyan/flappy/MainActivity.j Lorg/andengine/opengl/c/c/b;]
+      [271] invokeinterface #185
         + InterfaceMethodref [org/andengine/opengl/c/c/b.c ()F]
-      [327] fsub
-      [328] aload_0 v0
-      [329] getfield #86
-        + Fieldref [com/aayvazyan/flappy/MainActivity.i Lorg/andengine/opengl/c/c/b;]
-      [332] aload_1 v1
-      [333] invokespecial #151
+      [276] fsub
+      [277] aload_0 v0
+      [278] getfield #91
+        + Fieldref [com/aayvazyan/flappy/MainActivity.j Lorg/andengine/opengl/c/c/b;]
+      [281] aload_1 v1
+      [282] invokespecial #160
         + Methodref [org/andengine/c/e/e.<init> (FFLorg/andengine/opengl/c/c/b;Lorg/andengine/opengl/d/e;)V]
-      [336] invokespecial #141
+      [285] invokespecial #150
         + Methodref [org/andengine/c/c/a/e.<init> (FLorg/andengine/c/d/a;)V]
-      [339] invokevirtual #140
+      [288] invokevirtual #149
         + Methodref [org/andengine/c/c/a/a.a (Lorg/andengine/c/c/a/e;)V]
-      [342] aload v7
-      [344] new #52
+      [291] aload v7
+      [293] new #55
         + Class [org/andengine/c/c/a/e]
-      [347] dup
-      [348] ldc #5
+      [296] dup
+      [297] ldc #5
         + Float [-5.0]
-      [350] new #57
+      [299] new #60
         + Class [org/andengine/c/e/e]
-      [353] dup
-      [354] fconst_0
-      [355] getstatic #81
+      [302] dup
+      [303] fconst_0
+      [304] getstatic #85
         + Fieldref [com/aayvazyan/flappy/MainActivity.b I]
-      [358] i2f
-      [359] aload_0 v0
-      [360] getfield #95
-        + Fieldref [com/aayvazyan/flappy/MainActivity.r Lorg/andengine/opengl/c/c/d;]
-      [363] invokevirtual #172
+      [307] i2f
+      [308] aload_0 v0
+      [309] getfield #100
+        + Fieldref [com/aayvazyan/flappy/MainActivity.s Lorg/andengine/opengl/c/c/d;]
+      [312] invokevirtual #182
         + Methodref [org/andengine/opengl/c/c/d.c ()F]
-      [366] fsub
-      [367] aload_0 v0
-      [368] getfield #95
-        + Fieldref [com/aayvazyan/flappy/MainActivity.r Lorg/andengine/opengl/c/c/d;]
-      [371] aload_1 v1
-      [372] invokespecial #151
+      [315] fsub
+      [316] aload_0 v0
+      [317] getfield #100
+        + Fieldref [com/aayvazyan/flappy/MainActivity.s Lorg/andengine/opengl/c/c/d;]
+      [320] aload_1 v1
+      [321] invokespecial #160
         + Methodref [org/andengine/c/e/e.<init> (FFLorg/andengine/opengl/c/c/b;Lorg/andengine/opengl/d/e;)V]
-      [375] invokespecial #141
+      [324] invokespecial #150
         + Methodref [org/andengine/c/c/a/e.<init> (FLorg/andengine/c/d/a;)V]
-      [378] invokevirtual #140
+      [327] invokevirtual #149
         + Methodref [org/andengine/c/c/a/a.a (Lorg/andengine/c/c/a/e;)V]
-      [381] aload v7
-      [383] new #52
+      [330] aload v7
+      [332] new #55
         + Class [org/andengine/c/c/a/e]
-      [386] dup
-      [387] ldc #4
+      [335] dup
+      [336] ldc #4
         + Float [-10.0]
-      [389] new #57
+      [338] new #60
         + Class [org/andengine/c/e/e]
-      [392] dup
-      [393] fconst_0
-      [394] getstatic #81
+      [341] dup
+      [342] fconst_0
+      [343] getstatic #85
         + Fieldref [com/aayvazyan/flappy/MainActivity.b I]
-      [397] i2f
-      [398] aload_0 v0
-      [399] getfield #89
-        + Fieldref [com/aayvazyan/flappy/MainActivity.l Lorg/andengine/opengl/c/c/b;]
-      [402] invokeinterface #175
+      [346] i2f
+      [347] aload_0 v0
+      [348] getfield #94
+        + Fieldref [com/aayvazyan/flappy/MainActivity.m Lorg/andengine/opengl/c/c/b;]
+      [351] invokeinterface #185
         + InterfaceMethodref [org/andengine/opengl/c/c/b.c ()F]
-      [407] fsub
-      [408] aload_0 v0
-      [409] getfield #89
-        + Fieldref [com/aayvazyan/flappy/MainActivity.l Lorg/andengine/opengl/c/c/b;]
-      [412] aload_1 v1
-      [413] invokespecial #151
+      [356] fsub
+      [357] aload_0 v0
+      [358] getfield #94
+        + Fieldref [com/aayvazyan/flappy/MainActivity.m Lorg/andengine/opengl/c/c/b;]
+      [361] aload_1 v1
+      [362] invokespecial #160
         + Methodref [org/andengine/c/e/e.<init> (FFLorg/andengine/opengl/c/c/b;Lorg/andengine/opengl/d/e;)V]
-      [416] invokespecial #141
+      [365] invokespecial #150
         + Methodref [org/andengine/c/c/a/e.<init> (FLorg/andengine/c/d/a;)V]
-      [419] invokevirtual #140
+      [368] invokevirtual #149
         + Methodref [org/andengine/c/c/a/a.a (Lorg/andengine/c/c/a/e;)V]
-      [422] aload_0 v0
-      [423] getfield #84
+      [371] aload_0 v0
+      [372] getfield #88
         + Fieldref [com/aayvazyan/flappy/MainActivity.e Lorg/andengine/c/c/e;]
-      [426] aload v7
-      [428] invokevirtual #144
+      [375] aload v7
+      [377] invokevirtual #153
         + Methodref [org/andengine/c/c/e.a (Lorg/andengine/c/c/a/c;)V]
-      [431] aload_0 v0
-      [432] getfield #84
+      [380] aload_0 v0
+      [381] getfield #88
         + Fieldref [com/aayvazyan/flappy/MainActivity.e Lorg/andengine/c/c/e;]
-      [435] aload_0 v0
-      [436] getfield #91
-        + Fieldref [com/aayvazyan/flappy/MainActivity.n Lorg/andengine/d/a/a/d;]
-      [439] invokevirtual #143
+      [384] aload_0 v0
+      [385] getfield #96
+        + Fieldref [com/aayvazyan/flappy/MainActivity.o Lorg/andengine/d/a/a/d;]
+      [388] invokevirtual #152
         + Methodref [org/andengine/c/c/e.a (Lorg/andengine/b/b/d;)V]
-      [442] aload_0 v0
-      [443] getfield #84
+      [391] aload_0 v0
+      [392] getfield #88
         + Fieldref [com/aayvazyan/flappy/MainActivity.e Lorg/andengine/c/c/e;]
-      [446] aload_0 v0
-      [447] invokevirtual #145
+      [395] aload_0 v0
+      [396] invokevirtual #154
         + Methodref [org/andengine/c/c/e.a (Lorg/andengine/c/c/b;)V]
-      [450] aload_0 v0
-      [451] aload_0 v0
-      [452] getfield #83
-        + Fieldref [com/aayvazyan/flappy/MainActivity.d Lorg/andengine/opengl/c/c/f;]
-      [455] aload_0 v0
-      [456] getfield #93
-        + Fieldref [com/aayvazyan/flappy/MainActivity.p Lorg/andengine/c/e/a;]
-      [459] invokevirtual #113
-        + Methodref [com/aayvazyan/flappy/MainActivity.a (Lorg/andengine/opengl/c/c/f;Lorg/andengine/c/e/a;)V]
-      [462] aload_0 v0
-      [463] getfield #84
+      [399] aload_0 v0
+      [400] new #52
+        + Class [org/andengine/c/a]
+      [403] dup
+      [404] invokespecial #145
+        + Methodref [org/andengine/c/a.<init> ()V]
+      [407] putfield #89
+        + Fieldref [com/aayvazyan/flappy/MainActivity.f Lorg/andengine/c/a;]
+      [410] aload_0 v0
+      [411] getfield #88
         + Fieldref [com/aayvazyan/flappy/MainActivity.e Lorg/andengine/c/c/e;]
-      [466] areturn
+      [414] aload_0 v0
+      [415] getfield #89
+        + Fieldref [com/aayvazyan/flappy/MainActivity.f Lorg/andengine/c/a;]
+      [418] invokevirtual #156
+        + Methodref [org/andengine/c/c/e.b (Lorg/andengine/c/c;)V]
+      [421] aload_0 v0
+      [422] new #61
+        + Class [org/andengine/c/f/b]
+      [425] dup
+      [426] ldc #11
+        + Float [10.0]
+      [428] ldc #11
+        + Float [10.0]
+      [430] aload_0 v0
+      [431] getfield #97
+        + Fieldref [com/aayvazyan/flappy/MainActivity.p Lorg/andengine/opengl/a/a;]
+      [434] ldc #19
+        + String [Score: 1234567890]
+      [436] bipush 17
+      [438] aload_0 v0
+      [439] invokevirtual #123
+        + Methodref [com/aayvazyan/flappy/MainActivity.m ()Lorg/andengine/opengl/d/e;]
+      [442] invokespecial #161
+        + Methodref [org/andengine/c/f/b.<init> (FFLorg/andengine/opengl/a/f;Ljava/lang/CharSequence;ILorg/andengine/opengl/d/e;)V]
+      [445] putfield #90
+        + Fieldref [com/aayvazyan/flappy/MainActivity.g Lorg/andengine/c/f/b;]
+      [448] aload_0 v0
+      [449] getfield #90
+        + Fieldref [com/aayvazyan/flappy/MainActivity.g Lorg/andengine/c/f/b;]
+      [452] ldc #16
+        + String [0]
+      [454] invokevirtual #162
+        + Methodref [org/andengine/c/f/b.a (Ljava/lang/CharSequence;)V]
+      [457] aload_0 v0
+      [458] getfield #90
+        + Fieldref [com/aayvazyan/flappy/MainActivity.g Lorg/andengine/c/f/b;]
+      [461] getstatic #105
+        + Fieldref [org/andengine/f/d/a.a Lorg/andengine/f/d/a;]
+      [464] invokevirtual #163
+        + Methodref [org/andengine/c/f/b.a (Lorg/andengine/f/d/a;)V]
+      [467] aload_0 v0
+      [468] getfield #88
+        + Fieldref [com/aayvazyan/flappy/MainActivity.e Lorg/andengine/c/c/e;]
+      [471] aload_0 v0
+      [472] getfield #90
+        + Fieldref [com/aayvazyan/flappy/MainActivity.g Lorg/andengine/c/f/b;]
+      [475] invokevirtual #156
+        + Methodref [org/andengine/c/c/e.b (Lorg/andengine/c/c;)V]
+      [478] aload_0 v0
+      [479] aload_0 v0
+      [480] getfield #87
+        + Fieldref [com/aayvazyan/flappy/MainActivity.d Lorg/andengine/opengl/c/c/f;]
+      [483] aload_0 v0
+      [484] getfield #98
+        + Fieldref [com/aayvazyan/flappy/MainActivity.q Lorg/andengine/c/e/a;]
+      [487] invokevirtual #117
+        + Methodref [com/aayvazyan/flappy/MainActivity.a (Lorg/andengine/opengl/c/c/f;Lorg/andengine/c/e/a;)V]
+      [490] aload_0 v0
+      [491] getfield #88
+        + Fieldref [com/aayvazyan/flappy/MainActivity.e Lorg/andengine/c/c/e;]
+      [494] areturn
       Code attribute exceptions (count = 0):
       Code attribute attributes (attribute count = 0):
   + Method:       a(Lorg/andengine/opengl/c/c/f;Lorg/andengine/c/e/a;)V
@@ -1169,63 +1217,63 @@ Methods (count = 15):
       = public void a(org.andengine.opengl.c.c.f,org.andengine.c.e.a)
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 75, locals = 5, stack = 9):
-      [0] new #38
+      [0] new #39
         + Class [com/aayvazyan/flappy/a]
       [3] dup
-      [4] getstatic #80
+      [4] getstatic #84
         + Fieldref [com/aayvazyan/flappy/MainActivity.a I]
       [7] i2f
       [8] fconst_0
       [9] aload_1 v1
       [10] aload_0 v0
-      [11] invokevirtual #117
+      [11] invokevirtual #123
         + Methodref [com/aayvazyan/flappy/MainActivity.m ()Lorg/andengine/opengl/d/e;]
       [14] aload_2 v2
       [15] aload_0 v0
       [16] iconst_1
-      [17] invokespecial #121
+      [17] invokespecial #127
         + Methodref [com/aayvazyan/flappy/a.<init> (FFLorg/andengine/opengl/c/c/f;Lorg/andengine/opengl/d/e;Lorg/andengine/c/e/a;Lcom/aayvazyan/flappy/MainActivity;Z)V]
       [20] astore_3 v3
-      [21] new #38
+      [21] new #39
         + Class [com/aayvazyan/flappy/a]
       [24] dup
-      [25] getstatic #80
+      [25] getstatic #84
         + Fieldref [com/aayvazyan/flappy/MainActivity.a I]
       [28] i2f
-      [29] getstatic #81
+      [29] getstatic #85
         + Fieldref [com/aayvazyan/flappy/MainActivity.b I]
       [32] i2f
       [33] aload_1 v1
-      [34] invokevirtual #173
+      [34] invokevirtual #183
         + Methodref [org/andengine/opengl/c/c/f.c ()F]
       [37] fsub
       [38] aload_1 v1
       [39] aload_0 v0
-      [40] invokevirtual #117
+      [40] invokevirtual #123
         + Methodref [com/aayvazyan/flappy/MainActivity.m ()Lorg/andengine/opengl/d/e;]
       [43] aload_2 v2
       [44] aload_0 v0
       [45] iconst_1
-      [46] invokespecial #121
+      [46] invokespecial #127
         + Methodref [com/aayvazyan/flappy/a.<init> (FFLorg/andengine/opengl/c/c/f;Lorg/andengine/opengl/d/e;Lorg/andengine/c/e/a;Lcom/aayvazyan/flappy/MainActivity;Z)V]
       [49] astore v4
       [51] aload_3 v3
       [52] iconst_0
       [53] iconst_1
-      [54] invokevirtual #122
+      [54] invokevirtual #128
         + Methodref [com/aayvazyan/flappy/a.a (ZZ)V]
       [57] aload_0 v0
-      [58] getfield #84
-        + Fieldref [com/aayvazyan/flappy/MainActivity.e Lorg/andengine/c/c/e;]
+      [58] getfield #89
+        + Fieldref [com/aayvazyan/flappy/MainActivity.f Lorg/andengine/c/a;]
       [61] aload v4
-      [63] invokevirtual #147
-        + Methodref [org/andengine/c/c/e.b (Lorg/andengine/c/c;)V]
+      [63] invokevirtual #146
+        + Methodref [org/andengine/c/a.b (Lorg/andengine/c/c;)V]
       [66] aload_0 v0
-      [67] getfield #84
-        + Fieldref [com/aayvazyan/flappy/MainActivity.e Lorg/andengine/c/c/e;]
+      [67] getfield #89
+        + Fieldref [com/aayvazyan/flappy/MainActivity.f Lorg/andengine/c/a;]
       [70] aload_3 v3
-      [71] invokevirtual #147
-        + Methodref [org/andengine/c/c/e.b (Lorg/andengine/c/c;)V]
+      [71] invokevirtual #146
+        + Methodref [org/andengine/c/a.b (Lorg/andengine/c/c;)V]
       [74] return
       Code attribute exceptions (count = 0):
       Code attribute attributes (attribute count = 0):
@@ -1244,14 +1292,14 @@ Methods (count = 15):
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 19, locals = 3, stack = 2):
       [0] aload_2 v2
-      [1] invokevirtual #163
+      [1] invokevirtual #173
         + Methodref [org/andengine/input/a/a.f ()Z]
       [4] ifeq +13 (target=17)
       [7] aload_0 v0
       [8] aload_0 v0
-      [9] getfield #93
-        + Fieldref [com/aayvazyan/flappy/MainActivity.p Lorg/andengine/c/e/a;]
-      [12] invokespecial #112
+      [9] getfield #98
+        + Fieldref [com/aayvazyan/flappy/MainActivity.q Lorg/andengine/c/e/a;]
+      [12] invokespecial #116
         + Methodref [com/aayvazyan/flappy/MainActivity.a (Lorg/andengine/c/e/a;)V]
       [15] iconst_1
       [16] ireturn
@@ -1283,10 +1331,10 @@ Methods (count = 15):
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 10, locals = 1, stack = 1):
       [0] aload_0 v0
-      [1] invokespecial #162
+      [1] invokespecial #172
         + Methodref [org/andengine/e/a/h.d ()V]
       [4] aload_0 v0
-      [5] invokevirtual #120
+      [5] invokevirtual #126
         + Methodref [com/aayvazyan/flappy/MainActivity.t ()Z]
       [8] pop
       [9] return
@@ -1302,60 +1350,60 @@ Methods (count = 15):
         + Float [0.5]
       [3] ldc #8
         + Float [0.5]
-      [5] invokestatic #157
+      [5] invokestatic #167
         + Methodref [org/andengine/d/a/a/c.a (FFF)Lcom/badlogic/gdx/physics/box2d/i;]
       [8] astore v5
-      [10] new #56
+      [10] new #59
         + Class [org/andengine/c/e/a]
       [13] dup
       [14] fload_1 v1
       [15] fload_2 v2
       [16] aload_0 v0
-      [17] getfield #90
-        + Fieldref [com/aayvazyan/flappy/MainActivity.m Lorg/andengine/opengl/c/c/f;]
+      [17] getfield #95
+        + Fieldref [com/aayvazyan/flappy/MainActivity.n Lorg/andengine/opengl/c/c/f;]
       [20] aload_0 v0
-      [21] invokevirtual #117
+      [21] invokevirtual #123
         + Methodref [com/aayvazyan/flappy/MainActivity.m ()Lorg/andengine/opengl/d/e;]
-      [24] invokespecial #148
+      [24] invokespecial #157
         + Methodref [org/andengine/c/e/a.<init> (FFLorg/andengine/opengl/c/c/c;Lorg/andengine/opengl/d/e;)V]
       [27] astore_3 v3
       [28] aload_0 v0
-      [29] getfield #91
-        + Fieldref [com/aayvazyan/flappy/MainActivity.n Lorg/andengine/d/a/a/d;]
+      [29] getfield #96
+        + Fieldref [com/aayvazyan/flappy/MainActivity.o Lorg/andengine/d/a/a/d;]
       [32] aload_3 v3
-      [33] getstatic #97
+      [33] getstatic #102
         + Fieldref [com/badlogic/gdx/physics/box2d/b.c Lcom/badlogic/gdx/physics/box2d/b;]
       [36] aload v5
-      [38] invokestatic #158
+      [38] invokestatic #168
         + Methodref [org/andengine/d/a/a/c.a (Lorg/andengine/d/a/a/d;Lorg/andengine/c/d/a;Lcom/badlogic/gdx/physics/box2d/b;Lcom/badlogic/gdx/physics/box2d/i;)Lcom/badlogic/gdx/physics/box2d/Body;]
       [41] astore v4
       [43] aload_0 v0
-      [44] getfield #91
-        + Fieldref [com/aayvazyan/flappy/MainActivity.n Lorg/andengine/d/a/a/d;]
-      [47] new #59
+      [44] getfield #96
+        + Fieldref [com/aayvazyan/flappy/MainActivity.o Lorg/andengine/d/a/a/d;]
+      [47] new #62
         + Class [org/andengine/d/a/a/a]
       [50] dup
       [51] aload_3 v3
       [52] aload v4
       [54] iconst_1
       [55] iconst_1
-      [56] invokespecial #154
+      [56] invokespecial #164
         + Methodref [org/andengine/d/a/a/a.<init> (Lorg/andengine/c/d/a;Lcom/badlogic/gdx/physics/box2d/Body;ZZ)V]
-      [59] invokevirtual #160
+      [59] invokevirtual #170
         + Methodref [org/andengine/d/a/a/d.a (Lorg/andengine/d/a/a/a;)V]
       [62] aload_3 v3
       [63] aload v4
-      [65] invokevirtual #149
+      [65] invokevirtual #158
         + Methodref [org/andengine/c/e/a.a (Ljava/lang/Object;)V]
       [68] aload_0 v0
       [69] aload_3 v3
-      [70] putfield #93
-        + Fieldref [com/aayvazyan/flappy/MainActivity.p Lorg/andengine/c/e/a;]
+      [70] putfield #98
+        + Fieldref [com/aayvazyan/flappy/MainActivity.q Lorg/andengine/c/e/a;]
       [73] aload_0 v0
-      [74] getfield #84
+      [74] getfield #88
         + Fieldref [com/aayvazyan/flappy/MainActivity.e Lorg/andengine/c/c/e;]
       [77] aload_3 v3
-      [78] invokevirtual #147
+      [78] invokevirtual #156
         + Methodref [org/andengine/c/c/e.b (Lorg/andengine/c/c;)V]
       [81] return
       Code attribute exceptions (count = 0):
@@ -1366,32 +1414,32 @@ Methods (count = 15):
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 36, locals = 4, stack = 3):
       [0] aload_1 v1
-      [1] invokevirtual #150
+      [1] invokevirtual #159
         + Methodref [org/andengine/c/e/a.d_ ()Ljava/lang/Object;]
-      [4] checkcast #40
+      [4] checkcast #41
         + Class [com/badlogic/gdx/physics/box2d/Body]
       [7] astore_2 v2
       [8] fconst_0
       [9] ldc #3
         + Float [-10.5]
-      [11] invokestatic #155
+      [11] invokestatic #165
         + Methodref [org/andengine/d/a/a/a/a.a (FF)Lcom/badlogic/gdx/a/a;]
       [14] astore_3 v3
       [15] aload_2 v2
       [16] aload_3 v3
-      [17] invokevirtual #125
+      [17] invokevirtual #131
         + Methodref [com/badlogic/gdx/physics/box2d/Body.a (Lcom/badlogic/gdx/a/a;)V]
       [20] aload_2 v2
       [21] aload_2 v2
-      [22] invokevirtual #126
+      [22] invokevirtual #132
         + Methodref [com/badlogic/gdx/physics/box2d/Body.d ()F]
-      [25] ldc #8
-        + Float [0.5]
+      [25] ldc #9
+        + Float [1.5]
       [27] fadd
-      [28] invokevirtual #124
+      [28] invokevirtual #130
         + Methodref [com/badlogic/gdx/physics/box2d/Body.a (F)V]
       [31] aload_3 v3
-      [32] invokestatic #156
+      [32] invokestatic #166
         + Methodref [org/andengine/d/a/a/a/a.a (Lcom/badlogic/gdx/a/a;)V]
       [35] return
       Code attribute exceptions (count = 0):
@@ -1400,29 +1448,46 @@ Methods (count = 15):
     Access flags: 0x1
       = public void e()
     Class member attributes (count = 1):
-    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+    + Code attribute instructions (code length = 23, locals = 2, stack = 2):
       [0] aload_0 v0
-      [1] invokevirtual #114
+      [1] invokevirtual #118
+        + Methodref [com/aayvazyan/flappy/MainActivity.d ()V]
+      [4] ldc2_w #80
+        + Long [500]
+      [7] invokestatic #141
+        + Methodref [java/lang/Thread.sleep (J)V]
+      [10] goto +8 (target=18)
+      [13] astore_1 v1
+      [14] aload_1 v1
+      [15] invokevirtual #134
+        + Methodref [java/lang/InterruptedException.printStackTrace ()V]
+      [18] aload_0 v0
+      [19] invokevirtual #119
         + Methodref [com/aayvazyan/flappy/MainActivity.f ()V]
-      [4] return
-      Code attribute exceptions (count = 0):
-      Code attribute attributes (attribute count = 0):
+      [22] return
+      Code attribute exceptions (count = 1):
+      - ExceptionInfo (4 -> 10: 13):
+      + Class [java/lang/InterruptedException]
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 2):
+        - [13] Var: ..., Stack: [a:java/lang/InterruptedException]
+        - [18] Var: ..., Stack: (empty)
   + Method:       f()V
     Access flags: 0x1
       = public void f()
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 62, locals = 6, stack = 6):
       [0] aload_0 v0
-      [1] invokevirtual #115
+      [1] invokevirtual #120
         + Methodref [com/aayvazyan/flappy/MainActivity.getApplicationContext ()Landroid/content/Context;]
       [4] astore_1 v1
-      [5] new #31
+      [5] new #33
         + Class [android/content/Intent]
       [8] dup
       [9] aload_1 v1
-      [10] ldc #37
+      [10] ldc #38
         + Class [com/aayvazyan/flappy/MainActivity]
-      [12] invokespecial #105
+      [12] invokespecial #110
         + Methodref [android/content/Intent.<init> (Landroid/content/Context;Ljava/lang/Class;)V]
       [15] astore_2 v2
       [16] ldc #1
@@ -1433,30 +1498,30 @@ Methods (count = 15):
       [21] aload_2 v2
       [22] ldc #2
         + Integer [268435456]
-      [24] invokestatic #103
+      [24] invokestatic #108
         + Methodref [android/app/PendingIntent.getActivity (Landroid/content/Context;ILandroid/content/Intent;I)Landroid/app/PendingIntent;]
       [27] astore v4
       [29] aload_1 v1
-      [30] ldc #21
+      [30] ldc #22
         + String [alarm]
-      [32] invokevirtual #104
+      [32] invokevirtual #109
         + Methodref [android/content/Context.getSystemService (Ljava/lang/String;)Ljava/lang/Object;]
-      [35] checkcast #28
+      [35] checkcast #30
         + Class [android/app/AlarmManager]
       [38] astore v5
       [40] aload v5
       [42] iconst_1
-      [43] invokestatic #134
+      [43] invokestatic #140
         + Methodref [java/lang/System.currentTimeMillis ()J]
-      [46] ldc2_w #75
+      [46] ldc2_w #78
         + Long [10]
       [49] ladd
       [50] aload v4
-      [52] invokevirtual #102
+      [52] invokevirtual #107
         + Methodref [android/app/AlarmManager.set (IJLandroid/app/PendingIntent;)V]
-      [55] invokestatic #108
+      [55] invokestatic #112
         + Methodref [android/os/Process.myPid ()I]
-      [58] invokestatic #107
+      [58] invokestatic #111
         + Methodref [android/os/Process.killProcess (I)V]
       [61] return
       Code attribute exceptions (count = 0):
@@ -1467,7 +1532,7 @@ Methods (count = 15):
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 7, locals = 0, stack = 1):
       [0] sipush 380
-      [3] putstatic #81
+      [3] putstatic #85
         + Fieldref [com/aayvazyan/flappy/MainActivity.b I]
       [6] return
       Code attribute exceptions (count = 0):
@@ -1485,14 +1550,18 @@ _____________________________________________________________________
 
 Interfaces (count = 0):
 
-Constant Pool (count = 84):
+Constant Pool (count = 113):
+  + String []
   + Class [com/aayvazyan/flappy/MainActivity]
   + Class [com/aayvazyan/flappy/a]
   + Class [java/lang/Exception]
+  + Class [java/lang/StringBuilder]
   + Class [org/andengine/b/b/a/a]
   + Class [org/andengine/c/e/a]
+  + Class [org/andengine/c/f/b]
   + Fieldref [com/aayvazyan/flappy/MainActivity.a I]
   + Fieldref [com/aayvazyan/flappy/MainActivity.c Lorg/andengine/opengl/c/c/f;]
+  + Fieldref [com/aayvazyan/flappy/MainActivity.g Lorg/andengine/c/f/b;]
   + Fieldref [com/aayvazyan/flappy/a.J Lorg/andengine/b/b/a/a;]
   + Fieldref [com/aayvazyan/flappy/a.K I]
   + Fieldref [com/aayvazyan/flappy/a.L Lorg/andengine/c/e/a;]
@@ -1505,12 +1574,20 @@ Constant Pool (count = 84):
   + Methodref [com/aayvazyan/flappy/a.a (Lorg/andengine/b/b/d;)V]
   + Methodref [com/aayvazyan/flappy/a.a (Lorg/andengine/c/d/b;)Z]
   + Methodref [com/aayvazyan/flappy/a.a_ ()F]
+  + Methodref [com/aayvazyan/flappy/a.b (F)V]
   + Methodref [java/lang/Exception.printStackTrace ()V]
+  + Methodref [java/lang/StringBuilder.<init> ()V]
+  + Methodref [java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;]
+  + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
   + Methodref [org/andengine/b/b/a/a.<init> (Lorg/andengine/c/c;)V]
   + Methodref [org/andengine/b/b/a/a.a (FF)V]
   + Methodref [org/andengine/b/b/a/a.b (F)V]
   + Methodref [org/andengine/c/e/a.<init> (FFLorg/andengine/opengl/c/c/c;Lorg/andengine/opengl/d/e;)V]
   + Methodref [org/andengine/c/e/a.a (F)V]
+  + Methodref [org/andengine/c/f/b.a (Ljava/lang/CharSequence;)V]
+  + Methodref [org/andengine/c/f/b.a_ (F)V]
+  + NameAndType [<init> ()V]
   + NameAndType [<init> (FFLorg/andengine/opengl/c/c/c;Lorg/andengine/opengl/d/e;)V]
   + NameAndType [<init> (Lorg/andengine/c/c;)V]
   + NameAndType [J Lorg/andengine/b/b/a/a;]
@@ -1521,22 +1598,33 @@ Constant Pool (count = 84):
   + NameAndType [O Z]
   + NameAndType [a (F)V]
   + NameAndType [a (FF)V]
+  + NameAndType [a (Ljava/lang/CharSequence;)V]
   + NameAndType [a (Lorg/andengine/b/b/d;)V]
   + NameAndType [a (Lorg/andengine/c/d/b;)Z]
   + NameAndType [a (Lorg/andengine/opengl/c/c/f;Lorg/andengine/c/e/a;)V]
   + NameAndType [a I]
   + NameAndType [a_ ()F]
+  + NameAndType [a_ (F)V]
+  + NameAndType [append (I)Ljava/lang/StringBuilder;]
+  + NameAndType [append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
   + NameAndType [b (F)V]
   + NameAndType [c Lorg/andengine/opengl/c/c/f;]
   + NameAndType [e ()V]
+  + NameAndType [g Lorg/andengine/c/f/b;]
   + NameAndType [l F]
   + NameAndType [printStackTrace ()V]
+  + NameAndType [toString ()Ljava/lang/String;]
+  + Utf8 []
   + Utf8 [()F]
+  + Utf8 [()Ljava/lang/String;]
   + Utf8 [()V]
   + Utf8 [(F)V]
   + Utf8 [(FF)V]
   + Utf8 [(FFLorg/andengine/opengl/c/c/c;Lorg/andengine/opengl/d/e;)V]
   + Utf8 [(FFLorg/andengine/opengl/c/c/f;Lorg/andengine/opengl/d/e;Lorg/andengine/c/e/a;Lcom/aayvazyan/flappy/MainActivity;Z)V]
+  + Utf8 [(I)Ljava/lang/StringBuilder;]
+  + Utf8 [(Ljava/lang/CharSequence;)V]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/StringBuilder;]
   + Utf8 [(Lorg/andengine/b/b/d;)V]
   + Utf8 [(Lorg/andengine/c/c;)V]
   + Utf8 [(Lorg/andengine/c/d/b;)Z]
@@ -1551,6 +1639,7 @@ Constant Pool (count = 84):
   + Utf8 [Lcom/aayvazyan/flappy/MainActivity;]
   + Utf8 [Lorg/andengine/b/b/a/a;]
   + Utf8 [Lorg/andengine/c/e/a;]
+  + Utf8 [Lorg/andengine/c/f/b;]
   + Utf8 [Lorg/andengine/opengl/c/c/f;]
   + Utf8 [M]
   + Utf8 [N]
@@ -1559,16 +1648,21 @@ Constant Pool (count = 84):
   + Utf8 [Z]
   + Utf8 [a]
   + Utf8 [a_]
+  + Utf8 [append]
   + Utf8 [b]
   + Utf8 [c]
   + Utf8 [com/aayvazyan/flappy/MainActivity]
   + Utf8 [com/aayvazyan/flappy/a]
   + Utf8 [e]
+  + Utf8 [g]
   + Utf8 [java/lang/Exception]
+  + Utf8 [java/lang/StringBuilder]
   + Utf8 [l]
   + Utf8 [org/andengine/b/b/a/a]
   + Utf8 [org/andengine/c/e/a]
+  + Utf8 [org/andengine/c/f/b]
   + Utf8 [printStackTrace]
+  + Utf8 [toString]
 
 Fields (count = 6):
   + Field:        J Lorg/andengine/b/b/a/a;
@@ -1601,52 +1695,52 @@ Methods (count = 2):
       [2] fload_2 v2
       [3] aload_3 v3
       [4] aload v4
-      [6] invokespecial #24
+      [6] invokespecial #33
         + Methodref [org/andengine/c/e/a.<init> (FFLorg/andengine/opengl/c/c/c;Lorg/andengine/opengl/d/e;)V]
       [9] aload_0 v0
       [10] sipush 400
-      [13] putfield #9
+      [13] putfield #13
         + Fieldref [com/aayvazyan/flappy/a.K I]
       [16] aload_0 v0
       [17] iconst_0
-      [18] putfield #12
+      [18] putfield #16
         + Fieldref [com/aayvazyan/flappy/a.N I]
       [21] aload_0 v0
       [22] aload v6
-      [24] putfield #11
+      [24] putfield #15
         + Fieldref [com/aayvazyan/flappy/a.M Lcom/aayvazyan/flappy/MainActivity;]
       [27] aload_0 v0
       [28] aload v5
-      [30] putfield #10
+      [30] putfield #14
         + Fieldref [com/aayvazyan/flappy/a.L Lorg/andengine/c/e/a;]
       [33] aload_0 v0
-      [34] new #4
+      [34] new #6
         + Class [org/andengine/b/b/a/a]
       [37] dup
       [38] aload_0 v0
-      [39] invokespecial #21
+      [39] invokespecial #30
         + Methodref [org/andengine/b/b/a/a.<init> (Lorg/andengine/c/c;)V]
-      [42] putfield #8
+      [42] putfield #12
         + Fieldref [com/aayvazyan/flappy/a.J Lorg/andengine/b/b/a/a;]
       [45] aload_0 v0
       [46] aload_0 v0
-      [47] getfield #8
+      [47] getfield #12
         + Fieldref [com/aayvazyan/flappy/a.J Lorg/andengine/b/b/a/a;]
-      [50] invokevirtual #17
+      [50] invokevirtual #21
         + Methodref [com/aayvazyan/flappy/a.a (Lorg/andengine/b/b/d;)V]
       [53] aload_0 v0
-      [54] getfield #8
+      [54] getfield #12
         + Fieldref [com/aayvazyan/flappy/a.J Lorg/andengine/b/b/a/a;]
       [57] aload_0 v0
-      [58] getfield #9
+      [58] getfield #13
         + Fieldref [com/aayvazyan/flappy/a.K I]
       [61] i2f
       [62] fconst_0
-      [63] invokevirtual #22
+      [63] invokevirtual #31
         + Methodref [org/andengine/b/b/a/a.a (FF)V]
       [66] aload_0 v0
       [67] iload v7
-      [69] putfield #13
+      [69] putfield #17
         + Fieldref [com/aayvazyan/flappy/a.O Z]
       [72] return
       Code attribute exceptions (count = 0):
@@ -1655,105 +1749,142 @@ Methods (count = 2):
     Access flags: 0x4
       = protected void a(float)
     Class member attributes (count = 1):
-    + Code attribute instructions (code length = 128, locals = 3, stack = 3):
+    + Code attribute instructions (code length = 177, locals = 3, stack = 3):
       [0] aload_0 v0
-      [1] getfield #14
+      [1] getfield #18
         + Fieldref [com/aayvazyan/flappy/a.l F]
       [4] fconst_0
       [5] fcmpg
-      [6] ifge +53 (target=59)
+      [6] ifge +101 (target=107)
       [9] aload_0 v0
-      [10] getfield #8
+      [10] fconst_0
+      [11] invokevirtual #24
+        + Methodref [com/aayvazyan/flappy/a.b (F)V]
+      [14] aload_0 v0
+      [15] getfield #12
         + Fieldref [com/aayvazyan/flappy/a.J Lorg/andengine/b/b/a/a;]
-      [13] aload_0 v0
-      [14] getfield #9
+      [18] aload_0 v0
+      [19] getfield #13
         + Fieldref [com/aayvazyan/flappy/a.K I]
-      [17] i2f
-      [18] invokevirtual #23
+      [22] i2f
+      [23] invokevirtual #32
         + Methodref [org/andengine/b/b/a/a.b (F)V]
-      [21] aload_0 v0
-      [22] dup
-      [23] getfield #12
+      [26] aload_0 v0
+      [27] dup
+      [28] getfield #16
         + Fieldref [com/aayvazyan/flappy/a.N I]
-      [26] iconst_1
-      [27] iadd
-      [28] putfield #12
+      [31] iconst_1
+      [32] iadd
+      [33] putfield #16
         + Fieldref [com/aayvazyan/flappy/a.N I]
-      [31] aload_0 v0
-      [32] getfield #13
+      [36] aload_0 v0
+      [37] getfield #15
+        + Fieldref [com/aayvazyan/flappy/a.M Lcom/aayvazyan/flappy/MainActivity;]
+      [40] getfield #11
+        + Fieldref [com/aayvazyan/flappy/MainActivity.g Lorg/andengine/c/f/b;]
+      [43] new #5
+        + Class [java/lang/StringBuilder]
+      [46] dup
+      [47] invokespecial #26
+        + Methodref [java/lang/StringBuilder.<init> ()V]
+      [50] ldc #1
+        + String []
+      [52] invokevirtual #28
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [55] aload_0 v0
+      [56] getfield #16
+        + Fieldref [com/aayvazyan/flappy/a.N I]
+      [59] invokevirtual #27
+        + Methodref [java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;]
+      [62] invokevirtual #29
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [65] invokevirtual #35
+        + Methodref [org/andengine/c/f/b.a (Ljava/lang/CharSequence;)V]
+      [68] aload_0 v0
+      [69] getfield #15
+        + Fieldref [com/aayvazyan/flappy/a.M Lcom/aayvazyan/flappy/MainActivity;]
+      [72] getfield #11
+        + Fieldref [com/aayvazyan/flappy/MainActivity.g Lorg/andengine/c/f/b;]
+      [75] fconst_0
+      [76] invokevirtual #36
+        + Methodref [org/andengine/c/f/b.a_ (F)V]
+      [79] aload_0 v0
+      [80] getfield #17
         + Fieldref [com/aayvazyan/flappy/a.O Z]
-      [35] ifeq +61 (target=96)
-      [38] aload_0 v0
-      [39] getfield #11
+      [83] ifeq +62 (target=145)
+      [86] aload_0 v0
+      [87] getfield #15
         + Fieldref [com/aayvazyan/flappy/a.M Lcom/aayvazyan/flappy/MainActivity;]
-      [42] aload_0 v0
-      [43] getfield #11
+      [90] aload_0 v0
+      [91] getfield #15
         + Fieldref [com/aayvazyan/flappy/a.M Lcom/aayvazyan/flappy/MainActivity;]
-      [46] getfield #7
+      [94] getfield #10
         + Fieldref [com/aayvazyan/flappy/MainActivity.c Lorg/andengine/opengl/c/c/f;]
-      [49] aload_0 v0
-      [50] getfield #10
-        + Fieldref [com/aayvazyan/flappy/a.L Lorg/andengine/c/e/a;]
-      [53] invokevirtual #15
-        + Methodref [com/aayvazyan/flappy/MainActivity.a (Lorg/andengine/opengl/c/c/f;Lorg/andengine/c/e/a;)V]
-      [56] goto +40 (target=96)
-      [59] aload_0 v0
-      [60] getfield #14
-        + Fieldref [com/aayvazyan/flappy/a.l F]
-      [63] aload_0 v0
-      [64] invokevirtual #19
-        + Methodref [com/aayvazyan/flappy/a.a_ ()F]
-      [67] fadd
-      [68] getstatic #6
-        + Fieldref [com/aayvazyan/flappy/MainActivity.a I]
-      [71] i2f
-      [72] fcmpl
-      [73] ifle +23 (target=96)
-      [76] aload_0 v0
-      [77] getfield #8
-        + Fieldref [com/aayvazyan/flappy/a.J Lorg/andengine/b/b/a/a;]
-      [80] aload_0 v0
-      [81] getfield #9
-        + Fieldref [com/aayvazyan/flappy/a.K I]
-      [84] ineg
-      [85] i2f
-      [86] invokevirtual #23
-        + Methodref [org/andengine/b/b/a/a.b (F)V]
-      [89] aload_0 v0
-      [90] getfield #12
-        + Fieldref [com/aayvazyan/flappy/a.N I]
-      [93] ifle +3 (target=96)
-      [96] aload_0 v0
       [97] aload_0 v0
-      [98] getfield #10
+      [98] getfield #14
         + Fieldref [com/aayvazyan/flappy/a.L Lorg/andengine/c/e/a;]
-      [101] invokevirtual #18
-        + Methodref [com/aayvazyan/flappy/a.a (Lorg/andengine/c/d/b;)Z]
-      [104] ifeq +18 (target=122)
+      [101] invokevirtual #19
+        + Methodref [com/aayvazyan/flappy/MainActivity.a (Lorg/andengine/opengl/c/c/f;Lorg/andengine/c/e/a;)V]
+      [104] goto +41 (target=145)
       [107] aload_0 v0
-      [108] getfield #11
+      [108] getfield #18
+        + Fieldref [com/aayvazyan/flappy/a.l F]
+      [111] aload_0 v0
+      [112] invokevirtual #23
+        + Methodref [com/aayvazyan/flappy/a.a_ ()F]
+      [115] fadd
+      [116] getstatic #9
+        + Fieldref [com/aayvazyan/flappy/MainActivity.a I]
+      [119] i2f
+      [120] fcmpl
+      [121] ifle +24 (target=145)
+      [124] aload_0 v0
+      [125] getfield #12
+        + Fieldref [com/aayvazyan/flappy/a.J Lorg/andengine/b/b/a/a;]
+      [128] aload_0 v0
+      [129] getfield #13
+        + Fieldref [com/aayvazyan/flappy/a.K I]
+      [132] ineg
+      [133] i2f
+      [134] invokevirtual #32
+        + Methodref [org/andengine/b/b/a/a.b (F)V]
+      [137] aload_0 v0
+      [138] aload_0 v0
+      [139] getfield #18
+        + Fieldref [com/aayvazyan/flappy/a.l F]
+      [142] invokevirtual #24
+        + Methodref [com/aayvazyan/flappy/a.b (F)V]
+      [145] aload_0 v0
+      [146] aload_0 v0
+      [147] getfield #14
+        + Fieldref [com/aayvazyan/flappy/a.L Lorg/andengine/c/e/a;]
+      [150] invokevirtual #22
+        + Methodref [com/aayvazyan/flappy/a.a (Lorg/andengine/c/d/b;)Z]
+      [153] ifeq +18 (target=171)
+      [156] aload_0 v0
+      [157] getfield #15
         + Fieldref [com/aayvazyan/flappy/a.M Lcom/aayvazyan/flappy/MainActivity;]
-      [111] invokevirtual #16
+      [160] invokevirtual #20
         + Methodref [com/aayvazyan/flappy/MainActivity.e ()V]
-      [114] goto +8 (target=122)
-      [117] astore_2 v2
-      [118] aload_2 v2
-      [119] invokevirtual #20
+      [163] goto +8 (target=171)
+      [166] astore_2 v2
+      [167] aload_2 v2
+      [168] invokevirtual #25
         + Methodref [java/lang/Exception.printStackTrace ()V]
-      [122] aload_0 v0
-      [123] fload_1 v1
-      [124] invokespecial #25
+      [171] aload_0 v0
+      [172] fload_1 v1
+      [173] invokespecial #34
         + Methodref [org/andengine/c/e/a.a (F)V]
-      [127] return
+      [176] return
       Code attribute exceptions (count = 1):
-      - ExceptionInfo (107 -> 114: 117):
+      - ExceptionInfo (156 -> 163: 166):
       + Class [java/lang/Exception]
       Code attribute attributes (attribute count = 1):
       + Stack map table attribute (count = 4):
-        - [59] Var: ..., Stack: (empty)
-        - [96] Var: ..., Stack: (empty)
-        - [117] Var: ..., Stack: [a:java/lang/Exception]
-        - [122] Var: ..., Stack: (empty)
+        - [107] Var: ..., Stack: (empty)
+        - [145] Var: ..., Stack: (empty)
+        - [166] Var: ..., Stack: [a:java/lang/Exception]
+        - [171] Var: ..., Stack: (empty)
 
 Class file attributes (count = 0):
 
@@ -11733,15 +11864,15 @@ Constant Pool (count = 49):
   + Fieldref [org/andengine/b/b/a/a.f Z]
   + Methodref [org/andengine/b/b/a.<init> (Lorg/andengine/c/c;)V]
   + InterfaceMethodref [org/andengine/c/c.a (FF)V]
-  + InterfaceMethodref [org/andengine/c/c.b (F)V]
+  + InterfaceMethodref [org/andengine/c/c.c (F)V]
   + InterfaceMethodref [org/andengine/c/c.f ()F]
   + InterfaceMethodref [org/andengine/c/c.g ()F]
   + InterfaceMethodref [org/andengine/c/c.h ()F]
   + NameAndType [<init> (Lorg/andengine/c/c;)V]
   + NameAndType [a (FF)V]
   + NameAndType [a F]
-  + NameAndType [b (F)V]
   + NameAndType [b F]
+  + NameAndType [c (F)V]
   + NameAndType [c F]
   + NameAndType [d F]
   + NameAndType [e F]
@@ -11918,7 +12049,7 @@ Methods (count = 4):
       [79] fmul
       [80] fadd
       [81] invokeinterface #12
-        + InterfaceMethodref [org/andengine/c/c.b (F)V]
+        + InterfaceMethodref [org/andengine/c/c.c (F)V]
       [86] aload_0 v0
       [87] getfield #6
         + Fieldref [org/andengine/b/b/a/a.c F]
@@ -13989,7 +14120,7 @@ Fields (count = 37):
     Access flags: 0x2
       = private java.lang.Object K
 
-Methods (count = 50):
+Methods (count = 51):
   - Method:       <init>()V
     Access flags: 0x1
       = public a()
@@ -14205,6 +14336,26 @@ Methods (count = 50):
       [4] freturn
       Code attribute exceptions (count = 0):
       Code attribute attributes (attribute count = 0):
+  + Method:       b(F)V
+    Access flags: 0x1
+      = public void b(float)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 16, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] fload_1 v1
+      [2] putfield #46
+        + Fieldref [org/andengine/c/a.l F]
+      [5] aload_0 v0
+      [6] iconst_1
+      [7] putfield #28
+        + Fieldref [org/andengine/c/a.E Z]
+      [10] aload_0 v0
+      [11] iconst_1
+      [12] putfield #29
+        + Fieldref [org/andengine/c/a.F Z]
+      [15] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
   + Method:       a(FF)V
     Access flags: 0x1
       = public void a(float,float)
@@ -14240,9 +14391,9 @@ Methods (count = 50):
       [4] freturn
       Code attribute exceptions (count = 0):
       Code attribute attributes (attribute count = 0):
-  + Method:       b(F)V
+  + Method:       c(F)V
     Access flags: 0x1
-      = public void b(float)
+      = public void c(float)
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 16, locals = 2, stack = 2):
       [0] aload_0 v0
@@ -15694,7 +15845,7 @@ Interfaces (count = 3):
   + Class [org/andengine/b/b/d]
   + Class [org/andengine/f/c]
 
-Constant Pool (count = 34):
+Constant Pool (count = 33):
   + Class [java/lang/Object]
   + Class [org/andengine/b/b/c]
   + Class [org/andengine/b/b/d]
@@ -15712,7 +15863,6 @@ Constant Pool (count = 34):
   + Utf8 [(Ljava/lang/StringBuilder;)V]
   + Utf8 [(Lorg/andengine/c/c;)V]
   + Utf8 [a]
-  + Utf8 [b]
   + Utf8 [c]
   + Utf8 [d]
   + Utf8 [e]
@@ -15756,9 +15906,9 @@ Methods (count = 14):
   + Method:       h()F
     Access flags: 0x401
       = public abstract float h()
-  + Method:       b(F)V
+  + Method:       c(F)V
     Access flags: 0x401
-      = public abstract void b(float)
+      = public abstract void c(float)
   + Method:       j()[F
     Access flags: 0x401
       = public abstract float[] j()
@@ -16015,7 +16165,7 @@ _____________________________________________________________________
 
 Interfaces (count = 0):
 
-Constant Pool (count = 114):
+Constant Pool (count = 116):
   + String [a_color]
   + String [a_position]
   + Class [org/andengine/b/a/a]
@@ -16036,6 +16186,7 @@ Constant Pool (count = 114):
   + Methodref [org/andengine/b/a/a.a (Lorg/andengine/c/b/a;)Z]
   + Methodref [org/andengine/c/b/a.v ()Lorg/andengine/c/b/a/b;]
   + Methodref [org/andengine/c/d/d.a (FF)V]
+  + Methodref [org/andengine/c/d/d.b (F)V]
   + Methodref [org/andengine/c/d/d.b (Lorg/andengine/opengl/util/f;Lorg/andengine/b/a/a;)V]
   + Methodref [org/andengine/c/d/d.d (Lorg/andengine/opengl/util/f;Lorg/andengine/b/a/a;)V]
   + Methodref [org/andengine/c/d/d.f ()F]
@@ -16063,6 +16214,7 @@ Constant Pool (count = 114):
   + NameAndType [a (Lorg/andengine/c/b/a;)V]
   + NameAndType [a (Lorg/andengine/c/b/a;)Z]
   + NameAndType [a (Lorg/andengine/opengl/util/f;Lorg/andengine/opengl/b/g;)V]
+  + NameAndType [b (F)V]
   + NameAndType [b (Lorg/andengine/opengl/util/f;Lorg/andengine/b/a/a;)V]
   + NameAndType [b (Lorg/andengine/opengl/util/f;Lorg/andengine/opengl/b/g;)V]
   + NameAndType [d (Lorg/andengine/opengl/util/f;Lorg/andengine/b/a/a;)V]
@@ -16147,14 +16299,14 @@ Fields (count = 5):
     Access flags: 0x14
       = protected final org.andengine.c.b.a.b C
 
-Methods (count = 17):
+Methods (count = 18):
   + Method:       f()F
     Access flags: 0x1
       = public float f()
     Class member attributes (count = 2):
     + Code attribute instructions (code length = 5, locals = 1, stack = 1):
       [0] aload_0 v0
-      [1] invokespecial #23
+      [1] invokespecial #24
         + Methodref [org/andengine/c/d/d.f ()F]
       [4] freturn
       Code attribute exceptions (count = 0):
@@ -16167,7 +16319,7 @@ Methods (count = 17):
     Class member attributes (count = 2):
     + Code attribute instructions (code length = 5, locals = 1, stack = 1):
       [0] aload_0 v0
-      [1] invokespecial #24
+      [1] invokespecial #25
         + Methodref [org/andengine/c/d/d.g ()F]
       [4] freturn
       Code attribute exceptions (count = 0):
@@ -16180,7 +16332,7 @@ Methods (count = 17):
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 5, locals = 1, stack = 1):
       [0] aload_0 v0
-      [1] invokespecial #23
+      [1] invokespecial #24
         + Methodref [org/andengine/c/d/d.f ()F]
       [4] freturn
       Code attribute exceptions (count = 0):
@@ -16191,7 +16343,7 @@ Methods (count = 17):
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 5, locals = 1, stack = 1):
       [0] aload_0 v0
-      [1] invokespecial #24
+      [1] invokespecial #25
         + Methodref [org/andengine/c/d/d.g ()F]
       [4] freturn
       Code attribute exceptions (count = 0):
@@ -16218,6 +16370,34 @@ Methods (count = 17):
       [4] freturn
       Code attribute exceptions (count = 0):
       Code attribute attributes (attribute count = 0):
+  + Method:       b(F)V
+    Access flags: 0x1
+      = public void b(float)
+    Class member attributes (count = 2):
+    + Code attribute instructions (code length = 23, locals = 3, stack = 3):
+      [0] aload_0 v0
+      [1] getfield #14
+        + Fieldref [org/andengine/c/b/a.l F]
+      [4] fload_1 v1
+      [5] fsub
+      [6] fstore_2 v2
+      [7] aload_0 v0
+      [8] fload_1 v1
+      [9] invokespecial #21
+        + Methodref [org/andengine/c/d/d.b (F)V]
+      [12] aload_0 v0
+      [13] dup
+      [14] getfield #17
+        + Fieldref [org/andengine/c/b/a.z F]
+      [17] fload_2 v2
+      [18] fadd
+      [19] putfield #17
+        + Fieldref [org/andengine/c/b/a.z F]
+      [22] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+    + Runtime visible annotations attribute:
+      - Annotation [Ljava/lang/Deprecated;]:
   + Method:       a(FF)V
     Access flags: 0x1
       = public void a(float,float)
@@ -16292,13 +16472,13 @@ Methods (count = 17):
       [0] aload_0 v0
       [1] aload_1 v1
       [2] aload_2 v2
-      [3] invokespecial #21
+      [3] invokespecial #22
         + Methodref [org/andengine/c/d/d.b (Lorg/andengine/opengl/util/f;Lorg/andengine/b/a/a;)V]
       [6] aload_1 v1
       [7] aload_0 v0
       [8] getfield #11
         + Fieldref [org/andengine/c/b/a.B F]
-      [11] invokevirtual #29
+      [11] invokevirtual #30
         + Methodref [org/andengine/opengl/util/f.a (F)V]
       [14] aload_0 v0
       [15] getfield #12
@@ -16307,7 +16487,7 @@ Methods (count = 17):
       [19] aload_0 v0
       [20] getfield #13
         + Fieldref [org/andengine/c/b/a.G Lorg/andengine/opengl/b/g;]
-      [23] invokeinterface #32
+      [23] invokeinterface #33
         + InterfaceMethodref [org/andengine/c/b/a/b.a (Lorg/andengine/opengl/util/f;Lorg/andengine/opengl/b/g;)V]
       [28] return
       Code attribute exceptions (count = 0):
@@ -16322,7 +16502,7 @@ Methods (count = 17):
         + Fieldref [org/andengine/c/b/a.C Lorg/andengine/c/b/a/b;]
       [4] iconst_1
       [5] iconst_2
-      [6] invokeinterface #30
+      [6] invokeinterface #31
         + InterfaceMethodref [org/andengine/c/b/a/b.a (II)V]
       [11] return
       Code attribute exceptions (count = 0):
@@ -16339,12 +16519,12 @@ Methods (count = 17):
       [5] aload_0 v0
       [6] getfield #13
         + Fieldref [org/andengine/c/b/a.G Lorg/andengine/opengl/b/g;]
-      [9] invokeinterface #33
+      [9] invokeinterface #34
         + InterfaceMethodref [org/andengine/c/b/a/b.b (Lorg/andengine/opengl/util/f;Lorg/andengine/opengl/b/g;)V]
       [14] aload_0 v0
       [15] aload_1 v1
       [16] aload_2 v2
-      [17] invokespecial #22
+      [17] invokespecial #23
         + Methodref [org/andengine/c/d/d.d (Lorg/andengine/opengl/util/f;Lorg/andengine/b/a/a;)V]
       [20] return
       Code attribute exceptions (count = 0):
@@ -16358,7 +16538,7 @@ Methods (count = 17):
       [1] getfield #12
         + Fieldref [org/andengine/c/b/a.C Lorg/andengine/c/b/a/b;]
       [4] aload_0 v0
-      [5] invokeinterface #31
+      [5] invokeinterface #32
         + InterfaceMethodref [org/andengine/c/b/a/b.a (Lorg/andengine/c/b/a;)V]
       [10] return
       Code attribute exceptions (count = 0):
@@ -16371,7 +16551,7 @@ Methods (count = 17):
       [0] new #7
         + Class [org/andengine/f/f/b]
       [3] dup
-      [4] invokespecial #25
+      [4] invokespecial #26
         + Methodref [org/andengine/f/f/b.<init> ()V]
       [7] athrow
       Code attribute exceptions (count = 0):
@@ -16384,7 +16564,7 @@ Methods (count = 17):
       [0] new #7
         + Class [org/andengine/f/f/b]
       [3] dup
-      [4] invokespecial #25
+      [4] invokespecial #26
         + Methodref [org/andengine/f/f/b.<init> ()V]
       [7] athrow
       Code attribute exceptions (count = 0):
@@ -16411,7 +16591,7 @@ Methods (count = 17):
         + Class [org/andengine/opengl/d/a/d]
       [3] dup
       [4] iconst_2
-      [5] invokespecial #26
+      [5] invokespecial #27
         + Methodref [org/andengine/opengl/d/a/d.<init> (I)V]
       [8] iconst_0
       [9] ldc #2
@@ -16419,7 +16599,7 @@ Methods (count = 17):
       [11] iconst_2
       [12] sipush 5126
       [15] iconst_0
-      [16] invokevirtual #28
+      [16] invokevirtual #29
         + Methodref [org/andengine/opengl/d/a/d.a (ILjava/lang/String;IIZ)Lorg/andengine/opengl/d/a/d;]
       [19] iconst_1
       [20] ldc #1
@@ -16427,9 +16607,9 @@ Methods (count = 17):
       [22] iconst_4
       [23] sipush 5121
       [26] iconst_1
-      [27] invokevirtual #28
+      [27] invokevirtual #29
         + Methodref [org/andengine/opengl/d/a/d.a (ILjava/lang/String;IIZ)Lorg/andengine/opengl/d/a/d;]
-      [30] invokevirtual #27
+      [30] invokevirtual #28
         + Methodref [org/andengine/opengl/d/a/d.a ()Lorg/andengine/opengl/d/a/c;]
       [33] putstatic #16
         + Fieldref [org/andengine/c/b/a.y Lorg/andengine/opengl/d/a/c;]
@@ -24602,7 +24782,7 @@ Constant Pool (count = 79):
   + InterfaceMethodref [org/andengine/c/d/a.a_ ()F]
   + InterfaceMethodref [org/andengine/c/d/a.k ()F]
   + InterfaceMethodref [org/andengine/c/d/b.a (FF)V]
-  + InterfaceMethodref [org/andengine/c/d/b.b (F)V]
+  + InterfaceMethodref [org/andengine/c/d/b.c (F)V]
   + NameAndType [<init> ()V]
   + NameAndType [<init> (Lorg/andengine/c/d/a;Lcom/badlogic/gdx/physics/box2d/Body;ZZF)V]
   + NameAndType [a ()Lcom/badlogic/gdx/a/a;]
@@ -24612,9 +24792,9 @@ Constant Pool (count = 79):
   + NameAndType [a Lorg/andengine/c/d/b;]
   + NameAndType [a_ ()F]
   + NameAndType [b ()F]
-  + NameAndType [b (F)V]
   + NameAndType [b F]
   + NameAndType [b Lcom/badlogic/gdx/physics/box2d/Body;]
+  + NameAndType [c (F)V]
   + NameAndType [c F]
   + NameAndType [d F]
   + NameAndType [e Z]
@@ -24803,7 +24983,7 @@ Methods (count = 3):
       [77] invokestatic #24
         + Methodref [org/andengine/f/g/a.a (F)F]
       [80] invokeinterface #28
-        + InterfaceMethodref [org/andengine/c/d/b.b (F)V]
+        + InterfaceMethodref [org/andengine/c/d/b.c (F)V]
       [85] return
       Code attribute exceptions (count = 0):
       Code attribute attributes (attribute count = 1):
@@ -29730,55 +29910,52 @@ _____________________________________________________________________
 
 Interfaces (count = 0):
 
-Constant Pool (count = 71):
+Constant Pool (count = 70):
   + String []
   + String [/]
   + String [pAssetBasePath must end with '/' or be lenght zero.]
+  + Class [android/graphics/Typeface]
   + Class [java/lang/IllegalStateException]
   + Class [java/lang/Object]
   + Class [java/lang/String]
+  + Class [java/lang/StringBuilder]
   + Class [org/andengine/f/d/a]
   + Class [org/andengine/opengl/a/a]
   + Class [org/andengine/opengl/a/b]
-  + Class [org/andengine/opengl/c/a/a/a]
-  + Class [org/andengine/opengl/c/b/a]
   + Fieldref [org/andengine/f/d/a.C I]
   + Fieldref [org/andengine/opengl/a/b.a I]
   + Fieldref [org/andengine/opengl/a/b.b Ljava/lang/String;]
-  + Fieldref [org/andengine/opengl/c/b/a.a Lorg/andengine/opengl/c/b/a;]
+  + Methodref [android/graphics/Typeface.createFromAsset (Landroid/content/res/AssetManager;Ljava/lang/String;)Landroid/graphics/Typeface;]
   + Methodref [java/lang/IllegalStateException.<init> (Ljava/lang/String;)V]
   + Methodref [java/lang/String.endsWith (Ljava/lang/String;)Z]
   + Methodref [java/lang/String.length ()I]
+  + Methodref [java/lang/StringBuilder.<init> ()V]
+  + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
   + Methodref [org/andengine/opengl/a/a.<init> (Lorg/andengine/opengl/a/c;Lorg/andengine/opengl/c/a;Landroid/graphics/Typeface;FZI)V]
   + Methodref [org/andengine/opengl/a/b.a (Ljava/lang/String;)V]
-  + Methodref [org/andengine/opengl/a/b.a (Lorg/andengine/opengl/a/c;Lorg/andengine/opengl/c/a;Landroid/graphics/Typeface;FZI)Lorg/andengine/opengl/a/a;]
-  + Methodref [org/andengine/opengl/a/b.a (Lorg/andengine/opengl/a/c;Lorg/andengine/opengl/c/e;IILorg/andengine/opengl/c/b/a;Lorg/andengine/opengl/c/f;Landroid/graphics/Typeface;FZI)Lorg/andengine/opengl/a/a;]
-  + Methodref [org/andengine/opengl/a/b.a (Lorg/andengine/opengl/a/c;Lorg/andengine/opengl/c/e;IILorg/andengine/opengl/c/f;Landroid/graphics/Typeface;FZI)Lorg/andengine/opengl/a/a;]
-  + Methodref [org/andengine/opengl/c/a/a/a.<init> (Lorg/andengine/opengl/c/e;IILorg/andengine/opengl/c/b/a;Lorg/andengine/opengl/c/f;)V]
+  + NameAndType [<init> ()V]
   + NameAndType [<init> (Ljava/lang/String;)V]
   + NameAndType [<init> (Lorg/andengine/opengl/a/c;Lorg/andengine/opengl/c/a;Landroid/graphics/Typeface;FZI)V]
-  + NameAndType [<init> (Lorg/andengine/opengl/c/e;IILorg/andengine/opengl/c/b/a;Lorg/andengine/opengl/c/f;)V]
   + NameAndType [C I]
   + NameAndType [a (Ljava/lang/String;)V]
-  + NameAndType [a (Lorg/andengine/opengl/a/c;Lorg/andengine/opengl/c/a;Landroid/graphics/Typeface;FZI)Lorg/andengine/opengl/a/a;]
-  + NameAndType [a (Lorg/andengine/opengl/a/c;Lorg/andengine/opengl/c/e;IILorg/andengine/opengl/c/b/a;Lorg/andengine/opengl/c/f;Landroid/graphics/Typeface;FZI)Lorg/andengine/opengl/a/a;]
-  + NameAndType [a (Lorg/andengine/opengl/a/c;Lorg/andengine/opengl/c/e;IILorg/andengine/opengl/c/f;Landroid/graphics/Typeface;FZI)Lorg/andengine/opengl/a/a;]
   + NameAndType [a I]
-  + NameAndType [a Lorg/andengine/opengl/c/b/a;]
+  + NameAndType [append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
   + NameAndType [b Ljava/lang/String;]
+  + NameAndType [createFromAsset (Landroid/content/res/AssetManager;Ljava/lang/String;)Landroid/graphics/Typeface;]
   + NameAndType [endsWith (Ljava/lang/String;)Z]
   + NameAndType [length ()I]
+  + NameAndType [toString ()Ljava/lang/String;]
   + Utf8 []
   + Utf8 [()I]
+  + Utf8 [()Ljava/lang/String;]
   + Utf8 [()V]
+  + Utf8 [(Landroid/content/res/AssetManager;Ljava/lang/String;)Landroid/graphics/Typeface;]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/StringBuilder;]
   + Utf8 [(Ljava/lang/String;)V]
   + Utf8 [(Ljava/lang/String;)Z]
-  + Utf8 [(Lorg/andengine/opengl/a/c;Lorg/andengine/opengl/c/a;Landroid/graphics/Typeface;FZI)Lorg/andengine/opengl/a/a;]
+  + Utf8 [(Lorg/andengine/opengl/a/c;Lorg/andengine/opengl/c/a;Landroid/content/res/AssetManager;Ljava/lang/String;FZI)Lorg/andengine/opengl/a/a;]
   + Utf8 [(Lorg/andengine/opengl/a/c;Lorg/andengine/opengl/c/a;Landroid/graphics/Typeface;FZI)V]
-  + Utf8 [(Lorg/andengine/opengl/a/c;Lorg/andengine/opengl/c/e;IILorg/andengine/opengl/c/b/a;Lorg/andengine/opengl/c/f;Landroid/graphics/Typeface;FZI)Lorg/andengine/opengl/a/a;]
-  + Utf8 [(Lorg/andengine/opengl/a/c;Lorg/andengine/opengl/c/e;IILorg/andengine/opengl/c/f;Landroid/graphics/Typeface;F)Lorg/andengine/opengl/a/a;]
-  + Utf8 [(Lorg/andengine/opengl/a/c;Lorg/andengine/opengl/c/e;IILorg/andengine/opengl/c/f;Landroid/graphics/Typeface;FZI)Lorg/andengine/opengl/a/a;]
-  + Utf8 [(Lorg/andengine/opengl/c/e;IILorg/andengine/opengl/c/b/a;Lorg/andengine/opengl/c/f;)V]
   + Utf8 [/]
   + Utf8 [<clinit>]
   + Utf8 [<init>]
@@ -29786,21 +29963,23 @@ Constant Pool (count = 71):
   + Utf8 [Code]
   + Utf8 [I]
   + Utf8 [Ljava/lang/String;]
-  + Utf8 [Lorg/andengine/opengl/c/b/a;]
   + Utf8 [StackMapTable]
   + Utf8 [a]
+  + Utf8 [android/graphics/Typeface]
+  + Utf8 [append]
   + Utf8 [b]
+  + Utf8 [createFromAsset]
   + Utf8 [endsWith]
   + Utf8 [java/lang/IllegalStateException]
   + Utf8 [java/lang/Object]
   + Utf8 [java/lang/String]
+  + Utf8 [java/lang/StringBuilder]
   + Utf8 [length]
   + Utf8 [org/andengine/f/d/a]
   + Utf8 [org/andengine/opengl/a/a]
   + Utf8 [org/andengine/opengl/a/b]
-  + Utf8 [org/andengine/opengl/c/a/a/a]
-  + Utf8 [org/andengine/opengl/c/b/a]
   + Utf8 [pAssetBasePath must end with '/' or be lenght zero.]
+  + Utf8 [toString]
 
 Fields (count = 2):
   + Field:        a I
@@ -29810,7 +29989,7 @@ Fields (count = 2):
     Access flags: 0xa
       = private static java.lang.String b
 
-Methods (count = 7):
+Methods (count = 4):
   + Method:       a(Ljava/lang/String;)V
     Access flags: 0x9
       = public static void a(java.lang.String)
@@ -29830,7 +30009,7 @@ Methods (count = 7):
       [17] putstatic #14
         + Fieldref [org/andengine/opengl/a/b.b Ljava/lang/String;]
       [20] goto +13 (target=33)
-      [23] new #4
+      [23] new #5
         + Class [java/lang/IllegalStateException]
       [26] dup
       [27] ldc #3
@@ -29852,94 +30031,44 @@ Methods (count = 7):
     + Code attribute instructions (code length = 6, locals = 0, stack = 1):
       [0] ldc #1
         + String []
-      [2] invokestatic #20
+      [2] invokestatic #23
         + Methodref [org/andengine/opengl/a/b.a (Ljava/lang/String;)V]
       [5] return
       Code attribute exceptions (count = 0):
       Code attribute attributes (attribute count = 0):
-  + Method:       a(Lorg/andengine/opengl/a/c;Lorg/andengine/opengl/c/e;IILorg/andengine/opengl/c/f;Landroid/graphics/Typeface;F)Lorg/andengine/opengl/a/a;
+  + Method:       a(Lorg/andengine/opengl/a/c;Lorg/andengine/opengl/c/a;Landroid/content/res/AssetManager;Ljava/lang/String;FZI)Lorg/andengine/opengl/a/a;
     Access flags: 0x9
-      = public static org.andengine.opengl.a.a a(org.andengine.opengl.a.c,org.andengine.opengl.c.e,int,int,org.andengine.opengl.c.f,android.graphics.Typeface,float)
+      = public static org.andengine.opengl.a.a a(org.andengine.opengl.a.c,org.andengine.opengl.c.a,android.content.res.AssetManager,java.lang.String,float,boolean,int)
     Class member attributes (count = 1):
-    + Code attribute instructions (code length = 18, locals = 7, stack = 9):
-      [0] aload_0 v0
-      [1] aload_1 v1
-      [2] iload_2 v2
-      [3] iload_3 v3
-      [4] aload v4
-      [6] aload v5
-      [8] fload v6
-      [10] iconst_1
-      [11] getstatic #13
-        + Fieldref [org/andengine/opengl/a/b.a I]
-      [14] invokestatic #23
-        + Methodref [org/andengine/opengl/a/b.a (Lorg/andengine/opengl/a/c;Lorg/andengine/opengl/c/e;IILorg/andengine/opengl/c/f;Landroid/graphics/Typeface;FZI)Lorg/andengine/opengl/a/a;]
-      [17] areturn
-      Code attribute exceptions (count = 0):
-      Code attribute attributes (attribute count = 0):
-  + Method:       a(Lorg/andengine/opengl/a/c;Lorg/andengine/opengl/c/e;IILorg/andengine/opengl/c/f;Landroid/graphics/Typeface;FZI)Lorg/andengine/opengl/a/a;
-    Access flags: 0x9
-      = public static org.andengine.opengl.a.a a(org.andengine.opengl.a.c,org.andengine.opengl.c.e,int,int,org.andengine.opengl.c.f,android.graphics.Typeface,float,boolean,int)
-    Class member attributes (count = 1):
-    + Code attribute instructions (code length = 21, locals = 9, stack = 10):
-      [0] aload_0 v0
-      [1] aload_1 v1
-      [2] iload_2 v2
-      [3] iload_3 v3
-      [4] getstatic #15
-        + Fieldref [org/andengine/opengl/c/b/a.a Lorg/andengine/opengl/c/b/a;]
-      [7] aload v4
-      [9] aload v5
-      [11] fload v6
-      [13] iload v7
-      [15] iload v8
-      [17] invokestatic #22
-        + Methodref [org/andengine/opengl/a/b.a (Lorg/andengine/opengl/a/c;Lorg/andengine/opengl/c/e;IILorg/andengine/opengl/c/b/a;Lorg/andengine/opengl/c/f;Landroid/graphics/Typeface;FZI)Lorg/andengine/opengl/a/a;]
-      [20] areturn
-      Code attribute exceptions (count = 0):
-      Code attribute attributes (attribute count = 0):
-  + Method:       a(Lorg/andengine/opengl/a/c;Lorg/andengine/opengl/c/e;IILorg/andengine/opengl/c/b/a;Lorg/andengine/opengl/c/f;Landroid/graphics/Typeface;FZI)Lorg/andengine/opengl/a/a;
-    Access flags: 0x9
-      = public static org.andengine.opengl.a.a a(org.andengine.opengl.a.c,org.andengine.opengl.c.e,int,int,org.andengine.opengl.c.b.a,org.andengine.opengl.c.f,android.graphics.Typeface,float,boolean,int)
-    Class member attributes (count = 1):
-    + Code attribute instructions (code length = 27, locals = 10, stack = 8):
-      [0] aload_0 v0
-      [1] new #10
-        + Class [org/andengine/opengl/c/a/a/a]
-      [4] dup
-      [5] aload_1 v1
-      [6] iload_2 v2
-      [7] iload_3 v3
-      [8] aload v4
-      [10] aload v5
-      [12] invokespecial #24
-        + Methodref [org/andengine/opengl/c/a/a/a.<init> (Lorg/andengine/opengl/c/e;IILorg/andengine/opengl/c/b/a;Lorg/andengine/opengl/c/f;)V]
-      [15] aload v6
-      [17] fload v7
-      [19] iload v8
-      [21] iload v9
-      [23] invokestatic #21
-        + Methodref [org/andengine/opengl/a/b.a (Lorg/andengine/opengl/a/c;Lorg/andengine/opengl/c/a;Landroid/graphics/Typeface;FZI)Lorg/andengine/opengl/a/a;]
-      [26] areturn
-      Code attribute exceptions (count = 0):
-      Code attribute attributes (attribute count = 0):
-  + Method:       a(Lorg/andengine/opengl/a/c;Lorg/andengine/opengl/c/a;Landroid/graphics/Typeface;FZI)Lorg/andengine/opengl/a/a;
-    Access flags: 0x9
-      = public static org.andengine.opengl.a.a a(org.andengine.opengl.a.c,org.andengine.opengl.c.a,android.graphics.Typeface,float,boolean,int)
-    Class member attributes (count = 1):
-    + Code attribute instructions (code length = 16, locals = 6, stack = 8):
-      [0] new #8
+    + Code attribute instructions (code length = 40, locals = 7, stack = 8):
+      [0] new #10
         + Class [org/andengine/opengl/a/a]
       [3] dup
       [4] aload_0 v0
       [5] aload_1 v1
       [6] aload_2 v2
-      [7] fload_3 v3
-      [8] iload v4
-      [10] iload v5
-      [12] invokespecial #19
+      [7] new #8
+        + Class [java/lang/StringBuilder]
+      [10] dup
+      [11] invokespecial #19
+        + Methodref [java/lang/StringBuilder.<init> ()V]
+      [14] getstatic #14
+        + Fieldref [org/andengine/opengl/a/b.b Ljava/lang/String;]
+      [17] invokevirtual #20
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [20] aload_3 v3
+      [21] invokevirtual #20
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [24] invokevirtual #21
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [27] invokestatic #15
+        + Methodref [android/graphics/Typeface.createFromAsset (Landroid/content/res/AssetManager;Ljava/lang/String;)Landroid/graphics/Typeface;]
+      [30] fload v4
+      [32] iload v5
+      [34] iload v6
+      [36] invokespecial #22
         + Methodref [org/andengine/opengl/a/a.<init> (Lorg/andengine/opengl/a/c;Lorg/andengine/opengl/c/a;Landroid/graphics/Typeface;FZI)V]
-      [15] areturn
+      [39] areturn
       Code attribute exceptions (count = 0):
       Code attribute attributes (attribute count = 0):
   - Method:       <clinit>()V
@@ -38105,7 +38234,7 @@ _____________________________________________________________________
 
 Interfaces (count = 0):
 
-Constant Pool (count = 181):
+Constant Pool (count = 180):
   + String [ --> ]
   + String [ returned a null Bitmap.]
   + String [Caused by: ]
@@ -38229,7 +38358,6 @@ Constant Pool (count = 181):
   + Utf8 [(Lorg/andengine/opengl/c/a/a;Lorg/andengine/opengl/c/a/b/b;Ljava/lang/Throwable;)V]
   + Utf8 [(Lorg/andengine/opengl/c/e;II)V]
   + Utf8 [(Lorg/andengine/opengl/c/e;IILorg/andengine/opengl/c/b/a;)V]
-  + Utf8 [(Lorg/andengine/opengl/c/e;IILorg/andengine/opengl/c/b/a;Lorg/andengine/opengl/c/f;)V]
   + Utf8 [(Lorg/andengine/opengl/c/e;IILorg/andengine/opengl/c/b/a;Lorg/andengine/opengl/c/f;Lorg/andengine/opengl/c/a/b;)V]
   + Utf8 [(Lorg/andengine/opengl/c/e;IILorg/andengine/opengl/c/c;Lorg/andengine/opengl/c/f;Lorg/andengine/opengl/c/a/b;)V]
   + Utf8 [(Lorg/andengine/opengl/c/e;IILorg/andengine/opengl/c/f;)V]
@@ -38292,7 +38420,7 @@ Fields (count = 1):
     Access flags: 0x12
       = private final org.andengine.opengl.c.b.a j
 
-Methods (count = 6):
+Methods (count = 5):
   - Method:       <init>(Lorg/andengine/opengl/c/e;II)V
     Access flags: 0x1
       = public a(org.andengine.opengl.c.e,int,int)
@@ -38343,23 +38471,6 @@ Methods (count = 6):
       [10] invokespecial #50
         + Methodref [org/andengine/opengl/c/a/a/a.<init> (Lorg/andengine/opengl/c/e;IILorg/andengine/opengl/c/b/a;Lorg/andengine/opengl/c/f;Lorg/andengine/opengl/c/a/b;)V]
       [13] return
-      Code attribute exceptions (count = 0):
-      Code attribute attributes (attribute count = 0):
-  - Method:       <init>(Lorg/andengine/opengl/c/e;IILorg/andengine/opengl/c/b/a;Lorg/andengine/opengl/c/f;)V
-    Access flags: 0x1
-      = public a(org.andengine.opengl.c.e,int,int,org.andengine.opengl.c.b.a,org.andengine.opengl.c.f)
-    Class member attributes (count = 1):
-    + Code attribute instructions (code length = 13, locals = 6, stack = 7):
-      [0] aload_0 v0
-      [1] aload_1 v1
-      [2] iload_2 v2
-      [3] iload_3 v3
-      [4] aload v4
-      [6] aload v5
-      [8] aconst_null
-      [9] invokespecial #50
-        + Methodref [org/andengine/opengl/c/a/a/a.<init> (Lorg/andengine/opengl/c/e;IILorg/andengine/opengl/c/b/a;Lorg/andengine/opengl/c/f;Lorg/andengine/opengl/c/a/b;)V]
-      [12] return
       Code attribute exceptions (count = 0):
       Code attribute attributes (attribute count = 0):
   - Method:       <init>(Lorg/andengine/opengl/c/e;IILorg/andengine/opengl/c/b/a;Lorg/andengine/opengl/c/f;Lorg/andengine/opengl/c/a/b;)V
@@ -48268,8 +48379,8 @@ to your AndroidManifest.xml !]
   + Fieldref [org/andengine/e/a/b.c Z]
   + Fieldref [org/andengine/e/a/b.d Z]
   + Fieldref [org/andengine/e/a/b.e Z]
-  + Fieldref [org/andengine/e/a/b.g Lorg/andengine/b/a;]
-  + Fieldref [org/andengine/e/a/b.h Lorg/andengine/opengl/e/j;]
+  + Fieldref [org/andengine/e/a/b.h Lorg/andengine/b/a;]
+  + Fieldref [org/andengine/e/a/b.i Lorg/andengine/opengl/e/j;]
   + Fieldref [org/andengine/e/a/g.a [I]
   + Fieldref [org/andengine/f/i/a.c Z]
   + Methodref [android/os/PowerManager.newWakeLock (ILjava/lang/String;)Landroid/os/PowerManager$WakeLock;]
@@ -48396,16 +48507,16 @@ to your AndroidManifest.xml !]
   + NameAndType [g ()Lorg/andengine/b/c/e;]
   + NameAndType [g ()Lorg/andengine/opengl/d/e;]
   + NameAndType [g ()V]
-  + NameAndType [g Lorg/andengine/b/a;]
   + NameAndType [getClass ()Ljava/lang/Class;]
   + NameAndType [getName ()Ljava/lang/String;]
   + NameAndType [getSimpleName ()Ljava/lang/String;]
   + NameAndType [getSystemService (Ljava/lang/String;)Ljava/lang/Object;]
   + NameAndType [gravity I]
   + NameAndType [h ()Lorg/andengine/opengl/c/e;]
-  + NameAndType [h Lorg/andengine/opengl/e/j;]
+  + NameAndType [h Lorg/andengine/b/a;]
   + NameAndType [i ()Lorg/andengine/opengl/a/c;]
   + NameAndType [i ()V]
+  + NameAndType [i Lorg/andengine/opengl/e/j;]
   + NameAndType [isHeld ()Z]
   + NameAndType [j ()Lorg/andengine/a/c/c;]
   + NameAndType [j ()V]
@@ -48571,15 +48682,15 @@ to your AndroidManifest.xml !]
   + Utf8 [toString]
 
 Fields (count = 7):
-  + Field:        g Lorg/andengine/b/a;
+  + Field:        h Lorg/andengine/b/a;
     Access flags: 0x4
-      = protected org.andengine.b.a g
+      = protected org.andengine.b.a h
   + Field:        a Landroid/os/PowerManager$WakeLock;
     Access flags: 0x2
       = private android.os.PowerManager$WakeLock a
-  + Field:        h Lorg/andengine/opengl/e/j;
+  + Field:        i Lorg/andengine/opengl/e/j;
     Access flags: 0x4
-      = protected org.andengine.opengl.e.j h
+      = protected org.andengine.opengl.e.j i
   + Field:        b Z
     Access flags: 0x2
       = private boolean b
@@ -48626,10 +48737,10 @@ Methods (count = 30):
       [16] invokevirtual #102
         + Methodref [org/andengine/e/a/b.a (Lorg/andengine/b/c/b;)Lorg/andengine/b/a;]
       [19] putfield #55
-        + Fieldref [org/andengine/e/a/b.g Lorg/andengine/b/a;]
+        + Fieldref [org/andengine/e/a/b.h Lorg/andengine/b/a;]
       [22] aload_0 v0
       [23] getfield #55
-        + Fieldref [org/andengine/e/a/b.g Lorg/andengine/b/a;]
+        + Fieldref [org/andengine/e/a/b.h Lorg/andengine/b/a;]
       [26] invokevirtual #75
         + Methodref [org/andengine/b/a.a ()V]
       [29] aload_0 v0
@@ -48865,7 +48976,7 @@ Methods (count = 30):
         + Methodref [org/andengine/e/a/b.c ()V]
       [8] aload_0 v0
       [9] getfield #56
-        + Fieldref [org/andengine/e/a/b.h Lorg/andengine/opengl/e/j;]
+        + Fieldref [org/andengine/e/a/b.i Lorg/andengine/opengl/e/j;]
       [12] invokevirtual #135
         + Methodref [org/andengine/opengl/e/j.onResume ()V]
       [15] return
@@ -48878,7 +48989,7 @@ Methods (count = 30):
     + Code attribute instructions (code length = 13, locals = 1, stack = 2):
       [0] aload_0 v0
       [1] getfield #55
-        + Fieldref [org/andengine/e/a/b.g Lorg/andengine/b/a;]
+        + Fieldref [org/andengine/e/a/b.h Lorg/andengine/b/a;]
       [4] invokevirtual #77
         + Methodref [org/andengine/b/a.b ()V]
       [7] aload_0 v0
@@ -48922,7 +49033,7 @@ Methods (count = 30):
     + Code attribute instructions (code length = 8, locals = 1, stack = 1):
       [0] aload_0 v0
       [1] getfield #55
-        + Fieldref [org/andengine/e/a/b.g Lorg/andengine/b/a;]
+        + Fieldref [org/andengine/e/a/b.h Lorg/andengine/b/a;]
       [4] invokevirtual #86
         + Methodref [org/andengine/b/a.m ()V]
       [7] return
@@ -48938,7 +49049,7 @@ Methods (count = 30):
         + Methodref [org/andengine/e/a/a.onPause ()V]
       [4] aload_0 v0
       [5] getfield #56
-        + Fieldref [org/andengine/e/a/b.h Lorg/andengine/opengl/e/j;]
+        + Fieldref [org/andengine/e/a/b.i Lorg/andengine/opengl/e/j;]
       [8] invokevirtual #134
         + Methodref [org/andengine/opengl/e/j.onPause ()V]
       [11] aload_0 v0
@@ -48967,7 +49078,7 @@ Methods (count = 30):
         + Fieldref [org/andengine/e/a/b.b Z]
       [5] aload_0 v0
       [6] getfield #55
-        + Fieldref [org/andengine/e/a/b.g Lorg/andengine/b/a;]
+        + Fieldref [org/andengine/e/a/b.h Lorg/andengine/b/a;]
       [9] invokevirtual #78
         + Methodref [org/andengine/b/a.c ()V]
       [12] return
@@ -48983,7 +49094,7 @@ Methods (count = 30):
         + Methodref [org/andengine/e/a/a.onDestroy ()V]
       [4] aload_0 v0
       [5] getfield #55
-        + Fieldref [org/andengine/e/a/b.g Lorg/andengine/b/a;]
+        + Fieldref [org/andengine/e/a/b.h Lorg/andengine/b/a;]
       [8] invokevirtual #85
         + Methodref [org/andengine/b/a.l ()V]
       [11] aload_0 v0
@@ -49032,7 +49143,7 @@ Methods (count = 30):
       [71] aload_0 v0
       [72] aconst_null
       [73] putfield #55
-        + Fieldref [org/andengine/e/a/b.g Lorg/andengine/b/a;]
+        + Fieldref [org/andengine/e/a/b.h Lorg/andengine/b/a;]
       [76] return
       Code attribute exceptions (count = 1):
       - ExceptionInfo (11 -> 15: 18):
@@ -49048,7 +49159,7 @@ Methods (count = 30):
     + Code attribute instructions (code length = 47, locals = 1, stack = 1):
       [0] aload_0 v0
       [1] getfield #55
-        + Fieldref [org/andengine/e/a/b.g Lorg/andengine/b/a;]
+        + Fieldref [org/andengine/e/a/b.h Lorg/andengine/b/a;]
       [4] invokevirtual #79
         + Methodref [org/andengine/b/a.d ()Lorg/andengine/b/c/b;]
       [7] invokevirtual #89
@@ -49063,7 +49174,7 @@ Methods (count = 30):
         + Methodref [org/andengine/a/b/b.a ()V]
       [23] aload_0 v0
       [24] getfield #55
-        + Fieldref [org/andengine/e/a/b.g Lorg/andengine/b/a;]
+        + Fieldref [org/andengine/e/a/b.h Lorg/andengine/b/a;]
       [27] invokevirtual #79
         + Methodref [org/andengine/b/a.d ()Lorg/andengine/b/c/b;]
       [30] invokevirtual #89
@@ -49101,7 +49212,7 @@ Methods (count = 30):
     + Code attribute instructions (code length = 8, locals = 1, stack = 1):
       [0] aload_0 v0
       [1] getfield #55
-        + Fieldref [org/andengine/e/a/b.g Lorg/andengine/b/a;]
+        + Fieldref [org/andengine/e/a/b.h Lorg/andengine/b/a;]
       [4] invokevirtual #80
         + Methodref [org/andengine/b/a.g ()Lorg/andengine/opengl/d/e;]
       [7] areturn
@@ -49114,7 +49225,7 @@ Methods (count = 30):
     + Code attribute instructions (code length = 8, locals = 1, stack = 1):
       [0] aload_0 v0
       [1] getfield #55
-        + Fieldref [org/andengine/e/a/b.g Lorg/andengine/b/a;]
+        + Fieldref [org/andengine/e/a/b.h Lorg/andengine/b/a;]
       [4] invokevirtual #81
         + Methodref [org/andengine/b/a.h ()Lorg/andengine/opengl/c/e;]
       [7] areturn
@@ -49127,7 +49238,7 @@ Methods (count = 30):
     + Code attribute instructions (code length = 8, locals = 1, stack = 1):
       [0] aload_0 v0
       [1] getfield #55
-        + Fieldref [org/andengine/e/a/b.g Lorg/andengine/b/a;]
+        + Fieldref [org/andengine/e/a/b.h Lorg/andengine/b/a;]
       [4] invokevirtual #82
         + Methodref [org/andengine/b/a.i ()Lorg/andengine/opengl/a/c;]
       [7] areturn
@@ -49140,7 +49251,7 @@ Methods (count = 30):
     + Code attribute instructions (code length = 8, locals = 1, stack = 1):
       [0] aload_0 v0
       [1] getfield #55
-        + Fieldref [org/andengine/e/a/b.g Lorg/andengine/b/a;]
+        + Fieldref [org/andengine/e/a/b.h Lorg/andengine/b/a;]
       [4] invokevirtual #83
         + Methodref [org/andengine/b/a.j ()Lorg/andengine/a/c/c;]
       [7] areturn
@@ -49153,7 +49264,7 @@ Methods (count = 30):
     + Code attribute instructions (code length = 8, locals = 1, stack = 1):
       [0] aload_0 v0
       [1] getfield #55
-        + Fieldref [org/andengine/e/a/b.g Lorg/andengine/b/a;]
+        + Fieldref [org/andengine/e/a/b.h Lorg/andengine/b/a;]
       [4] invokevirtual #84
         + Methodref [org/andengine/b/a.k ()Lorg/andengine/a/b/b;]
       [7] areturn
@@ -49189,20 +49300,20 @@ Methods (count = 30):
       [6] invokespecial #132
         + Methodref [org/andengine/opengl/e/j.<init> (Landroid/content/Context;)V]
       [9] putfield #56
-        + Fieldref [org/andengine/e/a/b.h Lorg/andengine/opengl/e/j;]
+        + Fieldref [org/andengine/e/a/b.i Lorg/andengine/opengl/e/j;]
       [12] aload_0 v0
       [13] getfield #56
-        + Fieldref [org/andengine/e/a/b.h Lorg/andengine/opengl/e/j;]
+        + Fieldref [org/andengine/e/a/b.i Lorg/andengine/opengl/e/j;]
       [16] aload_0 v0
       [17] getfield #55
-        + Fieldref [org/andengine/e/a/b.g Lorg/andengine/b/a;]
+        + Fieldref [org/andengine/e/a/b.h Lorg/andengine/b/a;]
       [20] aload_0 v0
       [21] invokevirtual #133
         + Methodref [org/andengine/opengl/e/j.a (Lorg/andengine/b/a;Lorg/andengine/opengl/e/i;)V]
       [24] aload_0 v0
       [25] aload_0 v0
       [26] getfield #56
-        + Fieldref [org/andengine/e/a/b.h Lorg/andengine/opengl/e/j;]
+        + Fieldref [org/andengine/e/a/b.i Lorg/andengine/opengl/e/j;]
       [29] invokestatic #120
         + Methodref [org/andengine/e/a/b.s ()Landroid/widget/FrameLayout$LayoutParams;]
       [32] invokevirtual #121
@@ -49218,7 +49329,7 @@ Methods (count = 30):
       [0] aload_0 v0
       [1] aload_0 v0
       [2] getfield #55
-        + Fieldref [org/andengine/e/a/b.g Lorg/andengine/b/a;]
+        + Fieldref [org/andengine/e/a/b.h Lorg/andengine/b/a;]
       [5] invokevirtual #79
         + Methodref [org/andengine/b/a.d ()Lorg/andengine/b/c/b;]
       [8] invokevirtual #92
@@ -49318,7 +49429,7 @@ to your AndroidManifest.xml !]
     + Code attribute instructions (code length = 256, locals = 2, stack = 2):
       [0] aload_0 v0
       [1] getfield #55
-        + Fieldref [org/andengine/e/a/b.g Lorg/andengine/b/a;]
+        + Fieldref [org/andengine/e/a/b.h Lorg/andengine/b/a;]
       [4] invokevirtual #79
         + Methodref [org/andengine/b/a.d ()Lorg/andengine/b/c/b;]
       [7] astore_1 v1
@@ -49518,7 +49629,7 @@ to your AndroidManifest.xml !]
     + Code attribute instructions (code length = 9, locals = 1, stack = 2):
       [0] aload_0 v0
       [1] getfield #55
-        + Fieldref [org/andengine/e/a/b.g Lorg/andengine/b/a;]
+        + Fieldref [org/andengine/e/a/b.h Lorg/andengine/b/a;]
       [4] aload_0 v0
       [5] invokevirtual #76
         + Methodref [org/andengine/b/a.a (Landroid/content/Context;)Z]
@@ -49729,7 +49840,7 @@ Constant Pool (count = 78):
   + Class [org/andengine/e/a/d]
   + Class [org/andengine/e/c]
   + Class [org/andengine/f/e/a]
-  + Fieldref [org/andengine/e/a/b.g Lorg/andengine/b/a;]
+  + Fieldref [org/andengine/e/a/b.h Lorg/andengine/b/a;]
   + Fieldref [org/andengine/e/a/d.a Lorg/andengine/e/d;]
   + Fieldref [org/andengine/e/a/d.b Lorg/andengine/e/a/b;]
   + Methodref [java/lang/Class.getSimpleName ()Ljava/lang/String;]
@@ -49751,10 +49862,10 @@ Constant Pool (count = 78):
   + NameAndType [append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
   + NameAndType [b Lorg/andengine/e/a/b;]
   + NameAndType [currentThread ()Ljava/lang/Thread;]
-  + NameAndType [g Lorg/andengine/b/a;]
   + NameAndType [getClass ()Ljava/lang/Class;]
   + NameAndType [getName ()Ljava/lang/String;]
   + NameAndType [getSimpleName ()Ljava/lang/String;]
+  + NameAndType [h Lorg/andengine/b/a;]
   + NameAndType [toString ()Ljava/lang/String;]
   + Utf8 [ @(Thread: ']
   + Utf8 [')]
@@ -49778,10 +49889,10 @@ Constant Pool (count = 78):
   + Utf8 [append]
   + Utf8 [b]
   + Utf8 [currentThread]
-  + Utf8 [g]
   + Utf8 [getClass]
   + Utf8 [getName]
   + Utf8 [getSimpleName]
+  + Utf8 [h]
   + Utf8 [java/lang/Class]
   + Utf8 [java/lang/Object]
   + Utf8 [java/lang/StringBuilder]
@@ -49831,7 +49942,7 @@ Methods (count = 2):
       [1] getfield #16
         + Fieldref [org/andengine/e/a/d.b Lorg/andengine/e/a/b;]
       [4] getfield #14
-        + Fieldref [org/andengine/e/a/b.g Lorg/andengine/b/a;]
+        + Fieldref [org/andengine/e/a/b.h Lorg/andengine/b/a;]
       [7] aload_1 v1
       [8] invokevirtual #25
         + Methodref [org/andengine/b/a.a (Lorg/andengine/c/c/e;)V]
