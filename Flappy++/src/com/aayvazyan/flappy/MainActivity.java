@@ -1,5 +1,7 @@
 package com.aayvazyan.flappy;
 
+import android.app.*;
+import android.content.Context;
 import org.andengine.engine.camera.Camera;
 import org.andengine.engine.options.EngineOptions;
 import org.andengine.engine.options.ScreenOrientation;
@@ -168,14 +170,15 @@ public class MainActivity extends SimpleBaseGameActivity implements IAcceleratio
 		this.mScene.setOnSceneTouchListener(this);
 
 		final VertexBufferObjectManager vertexBufferObjectManager = this.getVertexBufferObjectManager();
+        //Borders
 		final Rectangle ground = new Rectangle(-2, CAMERA_HEIGHT, CAMERA_WIDTH-2, 0, vertexBufferObjectManager);
-		//final Rectangle roof = new Rectangle(-2, -2, CAMERA_WIDTH+2, 0, vertexBufferObjectManager);
+		final Rectangle roof = new Rectangle(-2, -2, CAMERA_WIDTH+2, 0, vertexBufferObjectManager);
 		final Rectangle left = new Rectangle(-2, -2, 0, CAMERA_HEIGHT-2, vertexBufferObjectManager);
 		final Rectangle right = new Rectangle(CAMERA_WIDTH - 4,-2, 0, CAMERA_HEIGHT-2, vertexBufferObjectManager);
 
 		final FixtureDef wallFixtureDef = PhysicsFactory.createFixtureDef(0, 0.5f, 0.5f);
 		PhysicsFactory.createBoxBody(this.mPhysicsWorld, ground, BodyType.StaticBody, wallFixtureDef);
-		//PhysicsFactory.createBoxBody(this.mPhysicsWorld, roof, BodyType.StaticBody, wallFixtureDef);
+		PhysicsFactory.createBoxBody(this.mPhysicsWorld, roof, BodyType.StaticBody, wallFixtureDef);
 		PhysicsFactory.createBoxBody(this.mPhysicsWorld, left, BodyType.StaticBody, wallFixtureDef);
 		PhysicsFactory.createBoxBody(this.mPhysicsWorld, right, BodyType.StaticBody, wallFixtureDef);
 
@@ -355,6 +358,7 @@ public class MainActivity extends SimpleBaseGameActivity implements IAcceleratio
 
     public void reload() {
     	
+	    /* Does not work perfectly
 	    Intent intent = getIntent();
 	    intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
 	    finish();
@@ -362,6 +366,14 @@ public class MainActivity extends SimpleBaseGameActivity implements IAcceleratio
 	
 	    startActivity(intent);
 	    overridePendingTransition(0, 0);
+	    */
+        Context context=getApplicationContext();
+        Intent mStartActivity = new Intent(context, MainActivity.class);
+        int mPendingIntentId = 123456;
+        PendingIntent mPendingIntent = PendingIntent.getActivity(context, mPendingIntentId,    mStartActivity, PendingIntent.FLAG_CANCEL_CURRENT);
+        AlarmManager mgr = (AlarmManager)context.getSystemService(Context.ALARM_SERVICE);
+        mgr.set(AlarmManager.RTC, System.currentTimeMillis() + 10, mPendingIntent);
+        android.os.Process.killProcess(android.os.Process.myPid());
 }
 	
 	/*@Override
