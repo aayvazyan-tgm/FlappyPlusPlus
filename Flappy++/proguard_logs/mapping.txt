@@ -1,21 +1,22 @@
 com.aayvazyan.flappy.MainActivity -> com.aayvazyan.flappy.MainActivity:
     int CAMERA_WIDTH -> a
     int CAMERA_HEIGHT -> b
-    org.andengine.opengl.texture.region.ITextureRegion mParallaxLayerBack -> j
-    org.andengine.opengl.texture.atlas.bitmap.BitmapTextureAtlas mBitmapTextureAtlas -> k
-    org.andengine.opengl.texture.atlas.bitmap.BitmapTextureAtlas m2BitmapTextureAtlas -> l
-    org.andengine.opengl.texture.region.ITextureRegion mParallaxLayerFront -> m
-    org.andengine.opengl.texture.region.TiledTextureRegion mBoxFaceTextureRegion -> n
+    org.andengine.opengl.texture.region.ITextureRegion mParallaxLayerBack -> k
+    org.andengine.opengl.texture.atlas.bitmap.BitmapTextureAtlas mBitmapTextureAtlas -> l
+    org.andengine.opengl.texture.atlas.bitmap.BitmapTextureAtlas m2BitmapTextureAtlas -> m
+    org.andengine.opengl.texture.region.ITextureRegion mParallaxLayerFront -> n
+    org.andengine.opengl.texture.region.TiledTextureRegion mBoxFaceTextureRegion -> o
     org.andengine.opengl.texture.region.TiledTextureRegion mTubeTextureRegion -> c
     org.andengine.opengl.texture.region.TiledTextureRegion mLongTubeTextureRegion -> d
-    org.andengine.extension.physics.box2d.PhysicsWorld mPhysicsWorld -> o
-    org.andengine.opengl.font.Font mFont -> p
+    org.andengine.extension.physics.box2d.PhysicsWorld mPhysicsWorld -> p
+    org.andengine.opengl.font.Font mFont -> q
     org.andengine.entity.scene.Scene mScene -> e
     org.andengine.entity.Entity tubeLevel -> f
-    org.andengine.entity.sprite.AnimatedSprite mainChar -> q
-    org.andengine.opengl.texture.atlas.bitmap.BitmapTextureAtlas mAutoParallaxBackgroundTexture -> r
-    org.andengine.opengl.texture.region.TextureRegion mParallaxLayerMiddle -> s
+    org.andengine.entity.sprite.AnimatedSprite mainChar -> r
+    org.andengine.opengl.texture.atlas.bitmap.BitmapTextureAtlas mAutoParallaxBackgroundTexture -> s
+    org.andengine.opengl.texture.region.TextureRegion mParallaxLayerMiddle -> t
     org.andengine.entity.text.Text elapsedText -> g
+    double score -> h
     org.andengine.engine.options.EngineOptions onCreateEngineOptions() -> a
     void onCreateResources() -> b
     org.andengine.entity.scene.Scene onCreateScene() -> c
@@ -29,13 +30,13 @@ com.aayvazyan.flappy.MainActivity -> com.aayvazyan.flappy.MainActivity:
     void jumpFace(org.andengine.entity.sprite.AnimatedSprite) -> a
     void loose() -> e
     void reload() -> f
+    void increaseScore(double) -> a
 com.aayvazyan.flappy.Tube -> com.aayvazyan.flappy.a:
     org.andengine.engine.handler.physics.PhysicsHandler mPhysicsHandler -> J
     int VELOCITY -> K
     org.andengine.entity.sprite.AnimatedSprite collideWith -> L
     com.aayvazyan.flappy.MainActivity mainActivity -> M
-    int wallHits -> N
-    boolean spawnnew -> O
+    boolean spawnnew -> N
     void onManagedUpdate(float) -> a
 com.badlogic.gdx.math.Vector2 -> com.badlogic.gdx.a.a:
     com.badlogic.gdx.math.Vector2 tmp -> c
@@ -1662,9 +1663,9 @@ org.andengine.ui.IGameInterface$OnPopulateSceneCallback -> org.andengine.e.d:
     void onPopulateSceneFinished() -> a
 org.andengine.ui.activity.BaseActivity -> org.andengine.e.a.a:
 org.andengine.ui.activity.BaseGameActivity -> org.andengine.e.a.b:
-    org.andengine.engine.Engine mEngine -> h
+    org.andengine.engine.Engine mEngine -> i
     android.os.PowerManager$WakeLock mWakeLock -> a
-    org.andengine.opengl.view.RenderSurfaceView mRenderSurfaceView -> i
+    org.andengine.opengl.view.RenderSurfaceView mRenderSurfaceView -> j
     boolean mGamePaused -> b
     boolean mGameCreated -> c
     boolean mCreateGameCalled -> d
