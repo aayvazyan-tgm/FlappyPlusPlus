@@ -1,18 +1,19 @@
 package com.aayvazyan.flappy;
 
 import org.andengine.engine.handler.physics.PhysicsHandler;
+import org.andengine.entity.modifier.MoveYModifier;
 import org.andengine.entity.sprite.AnimatedSprite;
 import org.andengine.opengl.texture.region.TiledTextureRegion;
 import org.andengine.opengl.vbo.VertexBufferObjectManager;
 
 import android.widget.Toast;
+import org.andengine.util.system.SystemUtils;
 
 class Tube extends AnimatedSprite {
 	private final PhysicsHandler mPhysicsHandler;
 	private int VELOCITY = 400;
 	private AnimatedSprite collideWith;
 	private MainActivity mainActivity;
-	private int wallHits=0;
 	private boolean spawnnew;
 	public Tube(final float pX, final float pY, final TiledTextureRegion pTextureRegion, final VertexBufferObjectManager pVertexBufferObjectManager,AnimatedSprite collideWith,MainActivity ma, boolean spawnnew) {
 		super(pX, pY, pTextureRegion, pVertexBufferObjectManager);
@@ -30,17 +31,11 @@ class Tube extends AnimatedSprite {
 		if(this.mX < 0) {
             this.setX(0);
 			this.mPhysicsHandler.setVelocityX(VELOCITY);
-			this.wallHits++;
-			this.mainActivity.elapsedText.setText(""+wallHits);
-            this.mainActivity.elapsedText.onUpdate(0);
+			this.mainActivity.increaseScore(0.1);
+            System.err.println(this.mainActivity.score);
 			if(this.spawnnew)mainActivity.createObstacle(mainActivity.mTubeTextureRegion , collideWith);
 		} else if(this.mX + this.getWidth() > MainActivity.CAMERA_WIDTH) {
 			this.mPhysicsHandler.setVelocityX(-VELOCITY);
-            this.setX(this.mX);
-			/*if(wallHits>0){
-
-				//mainActivity.mScene.detachChild(this);
-			}*/
 		}
 		//Check collision with the bird
 		if(this.collidesWith(collideWith)) {

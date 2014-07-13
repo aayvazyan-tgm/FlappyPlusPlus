@@ -70,7 +70,7 @@ import com.badlogic.gdx.physics.box2d.FixtureDef;
 /**
  *
  * @author Ari Ayvazyan ariay@live.at
- * @version 16.02.2014
+ * @version 13.07.2014
  * 
  */
 public class MainActivity extends SimpleBaseGameActivity implements IAccelerationListener, IOnSceneTouchListener, IOnAreaTouchListener {
@@ -101,6 +101,7 @@ public class MainActivity extends SimpleBaseGameActivity implements IAcceleratio
 	private BitmapTextureAtlas mAutoParallaxBackgroundTexture;
 	private TextureRegion mParallaxLayerMiddle;
 	public Text elapsedText;
+    public double score=0;
 
 	// ===========================================================
 	// Constructors
@@ -214,7 +215,7 @@ public class MainActivity extends SimpleBaseGameActivity implements IAcceleratio
         tubeLevel=new Entity();
         this.mScene.attachChild(tubeLevel);
         //Craete Text
-        elapsedText = new Text(10, 10, this.mFont, "Score: 1234567890", 17, this.getVertexBufferObjectManager());
+        elapsedText = new Text(10, 10, this.mFont, "Score: 12345678.9,0", 17, this.getVertexBufferObjectManager());
         elapsedText.setText("0");
         elapsedText.setColor(Color.WHITE);
         mScene.attachChild(elapsedText);
@@ -391,6 +392,11 @@ public class MainActivity extends SimpleBaseGameActivity implements IAcceleratio
         mgr.set(AlarmManager.RTC, System.currentTimeMillis() + 10, mPendingIntent);
         android.os.Process.killProcess(android.os.Process.myPid());
 }
+
+    public synchronized void increaseScore(double increaseBy) {
+        this.score+=increaseBy;
+        this.elapsedText.setText(""+this.score);
+    }
 	
 	/*@Override
 	public void onBackPressed() {
