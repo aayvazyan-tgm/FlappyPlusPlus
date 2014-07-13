@@ -28,16 +28,19 @@ class Tube extends AnimatedSprite {
 	protected void onManagedUpdate(final float pSecondsElapsed) {
 		//Check collision with the wall
 		if(this.mX < 0) {
+            this.setX(0);
 			this.mPhysicsHandler.setVelocityX(VELOCITY);
 			this.wallHits++;
-			//this.mainActivity.elapsedText.setText(this.mainActivity.elapsedText.getText()+"_"+wallHits);
+			this.mainActivity.elapsedText.setText(""+wallHits);
+            this.mainActivity.elapsedText.onUpdate(0);
 			if(this.spawnnew)mainActivity.createObstacle(mainActivity.mTubeTextureRegion , collideWith);
 		} else if(this.mX + this.getWidth() > MainActivity.CAMERA_WIDTH) {
 			this.mPhysicsHandler.setVelocityX(-VELOCITY);
-			if(wallHits>0){
-				
+            this.setX(this.mX);
+			/*if(wallHits>0){
+
 				//mainActivity.mScene.detachChild(this);
-			}
+			}*/
 		}
 		//Check collision with the bird
 		if(this.collidesWith(collideWith)) {
