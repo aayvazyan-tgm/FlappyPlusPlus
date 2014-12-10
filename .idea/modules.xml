@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/FlappyPlusPlus.iml" filepath="$PROJECT_DIR$/.idea/FlappyPlusPlus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AndEngine-GLES2/AndEngine-GLES2.iml" filepath="$PROJECT_DIR$/AndEngine-GLES2/AndEngine-GLES2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AndEnginePhysicsBox2DExtension-GLES2/AndEnginePhysicsBox2DExtension-GLES2.iml" filepath="$PROJECT_DIR$/AndEnginePhysicsBox2DExtension-GLES2/AndEnginePhysicsBox2DExtension-GLES2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Flappy++/Flappy++.iml" filepath="$PROJECT_DIR$/Flappy++/Flappy++.iml" />
     </modules>
   </component>
 </project>
-
